@@ -59,29 +59,24 @@ var Api = (function() {
         var responseObj = JSON.parse(http.responseText);
 
           if (convThreads.length === 0 && (payloadToWatson.input && payloadToWatson.context)) {
-              console.log('new');
               convThreads.push(payloadToWatson);
           }
           else if (payloadToWatson.context) {
               if (responseObj.context.previousThread) {
-                console.log(convThreads);
                   sendRequest(convThreads[convThreads.length - 1].input.text, convThreads[convThreads.length - 1].context);
               }
               if (payloadToWatson.context.thread) {
                   if (!convThreads[convThreads.length - 1].context.thread || payloadToWatson.context.thread === responseObj.context.thread) {
                       // Update current thread
-                      console.log('update');
                       convThreads[convThreads.length - 1] = payloadToWatson;
                   }
                   else if (payloadToWatson.context.thread !== responseObj.context.thread) {
                       // Thread switch
-                      console.log('new thread');
                       convThreads.push(payloadToWatson);
                   }
 
                   if (responseObj.context.completionPct) {
                     if (responseObj.context.completionPct === 100) {
-                      console.log('complete');
                       convThreads.pop();
 
                       if (convThreads.length > 0) {
@@ -90,9 +85,7 @@ var Api = (function() {
                         newContext.showContinue = true;
                         newContext.continuePrompt = convThreads[convThreads.length - 1].context.continuePrompt;
 
-                          console.log(convThreads);
-                          convThreads[convThreads.length - 1].context.showContinue = true;
-                          setTimeout(function() { sendRequest('', newContext) }, 2000);
+                        setTimeout(function() { sendRequest('', newContext) }, 2000);
                       }
                     }
                   }
