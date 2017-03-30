@@ -4,6 +4,8 @@ var Api = (function() {
   var requestPayload;
   var responsePayload;
   var messageEndpoint = '/api/message';
+  var convThreads = [];
+  var lastContext = {};
 
   // Publicly accessible methods defined
   return {
@@ -25,8 +27,12 @@ var Api = (function() {
     }
   };
 
+  function promptToContinue() {
+
+  }
+
   // Send a message request to the server
-  function sendRequest(text, context) {
+  function sendRequest(text, context, intents) {
     // Build request payload
     var payloadToWatson = {};
     if (text) {
@@ -38,6 +44,10 @@ var Api = (function() {
       payloadToWatson.context = context;
     }
 
+    if (intents) {
+        payloadToWatson.intents = intents;
+    }
+
     // Built http request
     var http = new XMLHttpRequest();
     http.open('POST', messageEndpoint, true);
@@ -45,6 +55,49 @@ var Api = (function() {
     http.onreadystatechange = function() {
       if (http.readyState === 4 && http.status === 200 && http.responseText) {
         Api.setResponsePayload(http.responseText);
+
+        var responseObj = JSON.parse(http.responseText);
+
+          if (convThreads.length === 0 && (payloadToWatson.input && payloadToWatson.context)) {
+              console.log('new');
+              convThreads.push(payloadToWatson);
+          }
+          else if (payloadToWatson.context) {
+              if (responseObj.context.previousThread) {
+                console.log(convThreads);
+                  sendRequest(convThreads[convThreads.length - 1].input.text, convThreads[convThreads.length - 1].context);
+              }
+              if (payloadToWatson.context.thread) {
+                  if (!convThreads[convThreads.length - 1].context.thread || payloadToWatson.context.thread === responseObj.context.thread) {
+                      // Update current thread
+                      console.log('update');
+                      convThreads[convThreads.length - 1] = payloadToWatson;
+                  }
+                  else if (payloadToWatson.context.thread !== responseObj.context.thread) {
+                      // Thread switch
+                      console.log('new thread');
+                      convThreads.push(payloadToWatson);
+                  }
+
+                  if (responseObj.context.completionPct) {
+                    if (responseObj.context.completionPct === 100) {
+                      console.log('complete');
+                      convThreads.pop();
+
+                      if (convThreads.length > 0) {
+                        var newContext = {};
+
+                        newContext.showContinue = true;
+                        newContext.continuePrompt = convThreads[convThreads.length - 1].context.continuePrompt;
+
+                          console.log(convThreads);
+                          convThreads[convThreads.length - 1].context.showContinue = true;
+                          setTimeout(function() { sendRequest('', newContext) }, 2000);
+                      }
+                    }
+                  }
+              }
+          }
       }
     };
 
