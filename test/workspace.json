@@ -1,0 +1,2230 @@
+{
+  "name": "JKCF-Test",
+  "created": "2017-03-14T01:42:11.690Z",
+  "intents": [
+    {
+      "intent": "6LearnMore",
+      "created": "2017-04-03T21:05:39.596Z",
+      "updated": "2017-04-03T21:54:23.347Z",
+      "examples": [
+        {
+          "text": "how do i get more informed about",
+          "created": "2017-04-03T21:50:42.214Z",
+          "updated": "2017-04-03T21:50:42.214Z"
+        },
+        {
+          "text": "How do I learn about academic departments at a college?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about colleges online?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about course offerings at a college?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about everyday life on campus?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about support services on campus?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn more about a college?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "i'm interested in finding out more about",
+          "created": "2017-04-03T21:50:15.902Z",
+          "updated": "2017-04-03T21:50:15.902Z"
+        },
+        {
+          "text": "I want to find out more information on",
+          "created": "2017-04-03T21:49:04.581Z",
+          "updated": "2017-04-03T21:49:04.581Z"
+        },
+        {
+          "text": "I want to learn more information about",
+          "created": "2017-04-03T21:49:38.096Z",
+          "updated": "2017-04-03T21:49:38.096Z"
+        },
+        {
+          "text": "My parents never went to college. What do they need to do to get informed?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "CollegeLife",
+      "created": "2017-04-03T18:04:51.924Z",
+      "updated": "2017-04-03T18:04:51.924Z",
+      "examples": [
+        {
+          "text": "How do I choose strong Extra Curricular activities in a college?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "Is there more to college than grades?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "What else beyond academics should I look for in a College?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "What is important beyond the classroom?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "What should I think about besides classes?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "CollegeQualification",
+      "created": "2017-03-14T01:44:04.910Z",
+      "updated": "2017-03-29T19:09:28.479Z",
+      "examples": [
+        {
+          "text": "Are private colleges out of my reach?",
+          "created": "2017-03-29T19:08:52.150Z",
+          "updated": "2017-03-29T19:08:52.150Z"
+        },
+        {
+          "text": "Can I afford to go to college?",
+          "created": "2017-03-29T19:08:40.199Z",
+          "updated": "2017-03-29T19:08:40.199Z"
+        },
+        {
+          "text": "If I don’t know what I want to major in, does it make sense to go to college?",
+          "created": "2017-03-29T19:09:28.479Z",
+          "updated": "2017-03-29T19:09:28.479Z"
+        },
+        {
+          "text": "I have a learning disability. Can I still go to college?",
+          "created": "2017-03-29T19:09:13.267Z",
+          "updated": "2017-03-29T19:09:13.267Z"
+        },
+        {
+          "text": "Is college worth the cost?",
+          "created": "2017-03-29T19:09:06.087Z",
+          "updated": "2017-03-29T19:09:06.087Z"
+        },
+        {
+          "text": "What if I’m still not sure what I want to do?",
+          "created": "2017-03-29T19:09:20.321Z",
+          "updated": "2017-03-29T19:09:20.321Z"
+        },
+        {
+          "text": "What qualities do colleges want?",
+          "created": "2017-03-29T19:08:58.067Z",
+          "updated": "2017-03-29T19:08:58.067Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "CollegeType",
+      "created": "2017-04-03T17:23:18.179Z",
+      "updated": "2017-04-03T17:38:24.715Z",
+      "examples": [
+        {
+          "text": "What are career schools?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "What are some benefits of large colleges?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "What are some benefits of small colleges?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "What are Two-year Colleges",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "what is a four-year college?",
+          "created": "2017-04-03T17:38:24.715Z",
+          "updated": "2017-04-03T17:38:24.715Z"
+        },
+        {
+          "text": "What is a four-year college or university?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "Deselection_Size",
+      "created": "2017-03-30T21:18:50.360Z",
+      "updated": "2017-03-30T21:18:50.360Z",
+      "examples": [
+        {
+          "text": "I don't like large schools",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I don't want to go to college with too many people",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I'd rather not be at a college with lots of students",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I like it when the colleges have fewer undergrads",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I prefer colleges with smaller class sizes",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "Deselecton_Location",
+      "created": "2017-03-30T21:11:42.429Z",
+      "updated": "2017-03-30T21:11:42.429Z",
+      "examples": [
+        {
+          "text": "Don't want a college in a major urban area",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "Don't want to attend a school that has lots of traffic",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "I don't like city schools",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "I don't like colleges in a big place",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "I don't want schools in a major city",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "GetLocation",
+      "created": "2017-03-14T01:43:54.037Z",
+      "updated": "2017-04-03T21:37:23.583Z",
+      "examples": [
+        {
+          "text": "ok",
+          "created": "2017-04-03T21:37:23.583Z",
+          "updated": "2017-04-03T21:37:23.583Z"
+        },
+        {
+          "text": "sure",
+          "created": "2017-03-28T00:51:49.282Z",
+          "updated": "2017-03-28T00:51:49.282Z"
+        },
+        {
+          "text": "yes",
+          "created": "2017-03-28T00:51:41.766Z",
+          "updated": "2017-03-28T00:51:41.766Z"
+        },
+        {
+          "text": "you bet",
+          "created": "2017-03-28T00:51:53.590Z",
+          "updated": "2017-03-28T00:51:53.590Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "NextSteps",
+      "created": "2017-04-03T18:06:43.589Z",
+      "updated": "2017-04-03T20:40:33.087Z",
+      "examples": [
+        {
+          "text": "how do i refine my college list?",
+          "created": "2017-04-03T20:40:33.087Z",
+          "updated": "2017-04-03T20:40:33.087Z"
+        },
+        {
+          "text": "I know which kinds of schools I want, but can't get down to a shortlist",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "I think I know that I want to go to a large school.  What else do I need to consider?",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "Ok, I think I'm interested in pursuing college.  What should be my next step?",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "What do I do next?",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "What do I need to consider beyond Academics when selecting the right College for me",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "SearchInitiation",
+      "created": "2017-03-25T01:37:13.679Z",
+      "updated": "2017-04-03T18:26:10.583Z",
+      "examples": [
+        {
+          "text": "How do I create my list of colleges to apply to (build a balanced list)?",
+          "created": "2017-03-28T01:32:02.745Z",
+          "updated": "2017-03-28T01:32:02.745Z"
+        },
+        {
+          "text": "How do I decide what I want in a college?",
+          "created": "2017-03-28T01:31:40.927Z",
+          "updated": "2017-03-28T01:31:40.927Z"
+        },
+        {
+          "text": "How do I start searching for colleges?",
+          "created": "2017-03-25T01:37:13.754Z",
+          "updated": "2017-03-28T01:30:48.828Z"
+        },
+        {
+          "text": "What is college fit?",
+          "created": "2017-03-28T01:31:48.982Z",
+          "updated": "2017-03-28T01:31:48.982Z"
+        },
+        {
+          "text": "What types of schools are there?",
+          "created": "2017-03-28T01:30:55.869Z",
+          "updated": "2017-03-28T01:30:55.869Z"
+        }
+      ],
+      "description": null
+    }
+  ],
+  "updated": "2017-04-03T22:51:14.714Z",
+  "entities": [
+    {
+      "type": null,
+      "entity": "1BuildingLists",
+      "source": null,
+      "values": [
+        {
+          "value": "Balanced List",
+          "created": "2017-04-03T18:27:31.064Z",
+          "updated": "2017-04-03T18:27:31.064Z",
+          "metadata": null,
+          "synonyms": [
+            "Appropriate Lists",
+            "Good List"
+          ]
+        },
+        {
+          "value": "List",
+          "created": "2017-04-03T18:27:31.064Z",
+          "updated": "2017-04-03T18:27:31.064Z",
+          "metadata": null,
+          "synonyms": [
+            "Lists",
+            "Rankings"
+          ]
+        }
+      ],
+      "created": "2017-04-03T18:27:31.064Z",
+      "updated": "2017-04-03T18:27:31.064Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "1CollegeFit",
+      "source": null,
+      "values": [
+        {
+          "value": "College Fit",
+          "created": "2017-04-03T18:24:50.297Z",
+          "updated": "2017-04-03T18:24:50.297Z",
+          "metadata": null,
+          "synonyms": [
+            "Academic Fit",
+            "Campus Fit",
+            "School Fit"
+          ]
+        }
+      ],
+      "created": "2017-04-03T18:24:50.297Z",
+      "updated": "2017-04-03T18:24:50.297Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "1HowToDecide",
+      "source": null,
+      "values": [
+        {
+          "value": "Decide",
+          "created": "2017-04-03T18:24:08.282Z",
+          "updated": "2017-04-03T18:24:08.282Z",
+          "metadata": null,
+          "synonyms": [
+            "Choose",
+            "Pick",
+            "Select"
+          ]
+        }
+      ],
+      "created": "2017-04-03T18:24:08.282Z",
+      "updated": "2017-04-03T18:24:08.282Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "1SearchEffort",
+      "source": null,
+      "values": [
+        {
+          "value": "Effort",
+          "created": "2017-04-03T18:28:43.739Z",
+          "updated": "2017-04-03T18:28:43.739Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "How much effort",
+          "created": "2017-04-03T18:28:43.739Z",
+          "updated": "2017-04-03T18:28:43.739Z",
+          "metadata": null,
+          "synonyms": [
+            "How much time"
+          ]
+        },
+        {
+          "value": "What does it take",
+          "created": "2017-04-03T18:28:43.739Z",
+          "updated": "2017-04-03T18:28:43.739Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-04-03T18:28:43.739Z",
+      "updated": "2017-04-03T18:28:43.739Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "1TypesOfSchools",
+      "source": null,
+      "values": [
+        {
+          "value": "Types of Colleges",
+          "created": "2017-04-03T18:23:11.849Z",
+          "updated": "2017-04-03T18:23:11.849Z",
+          "metadata": null,
+          "synonyms": [
+            "Kinds of Colleges",
+            "Varieties of Colleges"
+          ]
+        },
+        {
+          "value": "Types of Schools",
+          "created": "2017-04-03T18:23:11.849Z",
+          "updated": "2017-04-03T18:23:11.849Z",
+          "metadata": null,
+          "synonyms": [
+            "Kind of Schools",
+            "Varieties of Schools"
+          ]
+        }
+      ],
+      "created": "2017-04-03T18:23:11.849Z",
+      "updated": "2017-04-03T18:23:11.849Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "2AdmissionsOfficers",
+      "source": null,
+      "values": [
+        {
+          "value": "Admissions Officiers",
+          "created": "2017-04-03T19:39:02.664Z",
+          "updated": "2017-04-03T19:40:00.684Z",
+          "metadata": null,
+          "synonyms": [
+            "Admissions Agents",
+            "Admissions People",
+            "Admissions Staff",
+            "College Agents"
+          ]
+        },
+        {
+          "value": "School Recruiters",
+          "created": "2017-04-03T19:39:02.664Z",
+          "updated": "2017-04-03T19:39:02.664Z",
+          "metadata": null,
+          "synonyms": [
+            "Recruiters"
+          ]
+        }
+      ],
+      "created": "2017-04-03T19:39:02.664Z",
+      "updated": "2017-04-03T19:40:00.684Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "2AdmissionsQualities",
+      "source": null,
+      "values": [
+        {
+          "value": "Qualities",
+          "created": "2017-04-03T19:42:14.276Z",
+          "updated": "2017-04-03T19:42:14.276Z",
+          "metadata": null,
+          "synonyms": [
+            "Factors"
+          ]
+        }
+      ],
+      "created": "2017-04-03T19:42:14.276Z",
+      "updated": "2017-04-03T19:42:14.276Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "2Disabilities",
+      "source": null,
+      "values": [
+        {
+          "value": "Learning Disability",
+          "created": "2017-04-03T19:43:19.880Z",
+          "updated": "2017-04-03T19:44:34.938Z",
+          "metadata": null,
+          "synonyms": [
+            "Impairment"
+          ]
+        },
+        {
+          "value": "Physical Disability",
+          "created": "2017-04-03T19:43:19.880Z",
+          "updated": "2017-04-03T19:43:19.880Z",
+          "metadata": null,
+          "synonyms": [
+            "Handicap"
+          ]
+        }
+      ],
+      "created": "2017-04-03T19:43:19.880Z",
+      "updated": "2017-04-03T19:48:30.314Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "2GeneralAffordability",
+      "source": null,
+      "values": [
+        {
+          "value": "Afford to go",
+          "created": "2017-04-03T19:41:17.923Z",
+          "updated": "2017-04-03T19:41:17.923Z",
+          "metadata": null,
+          "synonyms": [
+            "Pay for"
+          ]
+        }
+      ],
+      "created": "2017-04-03T19:41:17.923Z",
+      "updated": "2017-04-03T19:41:17.923Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "2UnsureCareer",
+      "source": null,
+      "values": [
+        {
+          "value": "Unsure Career",
+          "created": "2017-04-03T19:47:50.922Z",
+          "updated": "2017-04-03T19:47:50.922Z",
+          "metadata": null,
+          "synonyms": [
+            "not sure about which path",
+            "not sure what i want to do",
+            "Not sure which career"
+          ]
+        }
+      ],
+      "created": "2017-04-03T19:47:50.922Z",
+      "updated": "2017-04-03T19:48:37.857Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "2UnsureMajor",
+      "source": null,
+      "values": [
+        {
+          "value": "Unsure Major",
+          "created": "2017-04-03T19:46:46.202Z",
+          "updated": "2017-04-03T19:46:46.202Z",
+          "metadata": null,
+          "synonyms": [
+            "Not sure what i want to do",
+            "Not sure which major",
+            "Unsure about which Major"
+          ]
+        }
+      ],
+      "created": "2017-04-03T19:46:46.202Z",
+      "updated": "2017-04-03T19:48:42.806Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "3CollegeDuration",
+      "source": null,
+      "values": [
+        {
+          "value": "2 Year",
+          "created": "2017-04-03T17:28:37.454Z",
+          "updated": "2017-04-03T17:55:40.500Z",
+          "metadata": null,
+          "synonyms": [
+            "short term",
+            "two year",
+            "two-year"
+          ]
+        },
+        {
+          "value": "4 Year",
+          "created": "2017-04-03T17:28:37.454Z",
+          "updated": "2017-04-03T17:55:27.670Z",
+          "metadata": null,
+          "synonyms": [
+            "four year",
+            "four-year",
+            "honors programs"
+          ]
+        }
+      ],
+      "created": "2017-04-03T17:28:37.454Z",
+      "updated": "2017-04-03T17:55:40.500Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "3CollegeSize",
+      "source": null,
+      "values": [
+        {
+          "value": "Large College",
+          "created": "2017-04-03T17:34:18.801Z",
+          "updated": "2017-04-03T17:34:18.801Z",
+          "metadata": null,
+          "synonyms": [
+            "BIg",
+            "big college",
+            "large school"
+          ]
+        },
+        {
+          "value": "Mid Sized College",
+          "created": "2017-04-03T17:35:03.192Z",
+          "updated": "2017-04-03T17:35:03.192Z",
+          "metadata": null,
+          "synonyms": [
+            "Mid Tier"
+          ]
+        },
+        {
+          "value": "Small College",
+          "created": "2017-04-03T17:34:18.801Z",
+          "updated": "2017-04-03T17:34:18.801Z",
+          "metadata": null,
+          "synonyms": [
+            "small school",
+            "tiny college"
+          ]
+        }
+      ],
+      "created": "2017-04-03T17:34:18.801Z",
+      "updated": "2017-04-03T17:35:03.192Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "3CollegeTypes",
+      "source": null,
+      "values": [
+        {
+          "value": "Career Schools",
+          "created": "2017-04-03T17:32:22.831Z",
+          "updated": "2017-04-03T17:32:22.831Z",
+          "metadata": null,
+          "synonyms": [
+            "Vocational",
+            "Vocational School"
+          ]
+        }
+      ],
+      "created": "2017-04-03T17:32:22.831Z",
+      "updated": "2017-04-03T17:32:22.831Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "4ExtraCurricular",
+      "source": null,
+      "values": [
+        {
+          "value": "Extra Curricular",
+          "created": "2017-04-03T20:14:40.537Z",
+          "updated": "2017-04-03T21:44:03.233Z",
+          "metadata": null,
+          "synonyms": [
+            "Beyond Academics",
+            "Beyond Classes",
+            "Non Academic"
+          ]
+        }
+      ],
+      "created": "2017-04-03T20:14:40.511Z",
+      "updated": "2017-04-03T21:44:03.233Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "5DoNext",
+      "source": null,
+      "values": [
+        {
+          "value": "Do Next",
+          "created": "2017-04-03T20:30:46.196Z",
+          "updated": "2017-04-03T21:14:52.831Z",
+          "metadata": null,
+          "synonyms": [
+            "Whats next"
+          ]
+        }
+      ],
+      "created": "2017-04-03T20:30:46.172Z",
+      "updated": "2017-04-03T21:14:52.831Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "5NarrowDownList",
+      "source": null,
+      "values": [
+        {
+          "value": "Narrow down",
+          "created": "2017-04-03T20:33:43.987Z",
+          "updated": "2017-04-03T21:23:30.256Z",
+          "metadata": null,
+          "synonyms": [
+            "Reduce",
+            "Refine",
+            "Tweak"
+          ]
+        }
+      ],
+      "created": "2017-04-03T20:33:43.961Z",
+      "updated": "2017-04-03T21:23:30.256Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "6AcademicDepts",
+      "source": null,
+      "values": [
+        {
+          "value": "Academic Departments",
+          "created": "2017-04-03T21:29:15.997Z",
+          "updated": "2017-04-03T21:29:15.997Z",
+          "metadata": null,
+          "synonyms": [
+            "Faculty",
+            "Scholastic Departments"
+          ]
+        }
+      ],
+      "created": "2017-04-03T21:29:15.963Z",
+      "updated": "2017-04-03T21:29:15.963Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "6CampusLife",
+      "source": null,
+      "values": [
+        {
+          "value": "Life on Campus",
+          "created": "2017-04-03T21:29:15.994Z",
+          "updated": "2017-04-03T21:29:15.994Z",
+          "metadata": null,
+          "synonyms": [
+            "Campus Life",
+            "Everyday Life"
+          ]
+        }
+      ],
+      "created": "2017-04-03T21:29:15.963Z",
+      "updated": "2017-04-03T21:29:15.963Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "6CourseOfferings",
+      "source": null,
+      "values": [
+        {
+          "value": "course offerings",
+          "created": "2017-04-03T21:29:15.995Z",
+          "updated": "2017-04-03T21:29:15.995Z",
+          "metadata": null,
+          "synonyms": [
+            "available courses",
+            "different courses"
+          ]
+        }
+      ],
+      "created": "2017-04-03T21:29:15.963Z",
+      "updated": "2017-04-03T21:29:15.963Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "6Online",
+      "source": null,
+      "values": [
+        {
+          "value": "Online",
+          "created": "2017-04-03T21:29:15.994Z",
+          "updated": "2017-04-03T21:29:15.994Z",
+          "metadata": null,
+          "synonyms": [
+            "Digital Channel"
+          ]
+        }
+      ],
+      "created": "2017-04-03T21:29:15.963Z",
+      "updated": "2017-04-03T21:29:15.963Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "6Parents",
+      "source": null,
+      "values": [
+        {
+          "value": "Parents",
+          "created": "2017-04-03T21:29:15.997Z",
+          "updated": "2017-04-03T21:29:15.997Z",
+          "metadata": null,
+          "synonyms": [
+            "Family"
+          ]
+        }
+      ],
+      "created": "2017-04-03T21:29:15.963Z",
+      "updated": "2017-04-03T21:29:15.963Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "6SupportServices",
+      "source": null,
+      "values": [
+        {
+          "value": "Support Services",
+          "created": "2017-04-03T21:32:20.683Z",
+          "updated": "2017-04-03T21:32:20.683Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-04-03T21:32:20.613Z",
+      "updated": "2017-04-03T21:32:20.613Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "CollegeROI",
+      "source": null,
+      "values": [
+        {
+          "value": "Worth",
+          "created": "2017-03-29T19:32:41.573Z",
+          "updated": "2017-03-29T19:32:41.573Z",
+          "metadata": null,
+          "synonyms": [
+            "Valuable"
+          ]
+        }
+      ],
+      "created": "2017-03-29T19:32:41.573Z",
+      "updated": "2017-03-29T19:32:41.573Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "Deselection",
+      "source": null,
+      "values": [
+        {
+          "value": "Deselect",
+          "created": "2017-03-30T21:05:12.063Z",
+          "updated": "2017-03-30T21:05:12.063Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-03-30T21:05:12.063Z",
+      "updated": "2017-03-30T21:05:12.063Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "ExpectedMajor",
+      "source": null,
+      "values": [
+        {
+          "value": "Computer Science",
+          "created": "2017-03-28T01:03:02.722Z",
+          "updated": "2017-03-28T01:03:02.722Z",
+          "metadata": null,
+          "synonyms": [
+            "Comp Sci"
+          ]
+        },
+        {
+          "value": "Economics",
+          "created": "2017-03-28T01:03:02.722Z",
+          "updated": "2017-03-28T01:03:23.226Z",
+          "metadata": null,
+          "synonyms": [
+            "Busines",
+            "Commerce"
+          ]
+        },
+        {
+          "value": "Engineering",
+          "created": "2017-03-28T01:03:02.722Z",
+          "updated": "2017-03-28T01:03:02.722Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "Law",
+          "created": "2017-03-28T01:03:02.722Z",
+          "updated": "2017-03-28T01:03:02.722Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "Sciences",
+          "created": "2017-03-28T01:03:02.722Z",
+          "updated": "2017-03-28T01:03:02.722Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-03-28T01:03:02.722Z",
+      "updated": "2017-03-28T01:03:23.226Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "FAFSA",
+      "source": null,
+      "values": [
+        {
+          "value": "Free Application for Federal Student Aid",
+          "created": "2017-03-14T01:45:48.787Z",
+          "updated": "2017-03-14T01:45:48.787Z",
+          "metadata": null,
+          "synonyms": [
+            "Government Adi",
+            "Government Grant"
+          ]
+        }
+      ],
+      "created": "2017-03-14T01:45:48.787Z",
+      "updated": "2017-03-14T01:45:48.787Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "GPA",
+      "source": null,
+      "values": [
+        {
+          "value": "2.0",
+          "created": "2017-03-28T01:01:05.886Z",
+          "updated": "2017-03-28T02:21:51.733Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "2.5",
+          "created": "2017-03-28T02:22:09.919Z",
+          "updated": "2017-03-28T02:22:09.919Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "3.0",
+          "created": "2017-03-28T02:22:05.395Z",
+          "updated": "2017-03-28T02:22:05.395Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "3.5",
+          "created": "2017-03-28T02:22:14.067Z",
+          "updated": "2017-03-28T02:22:14.067Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "4.0",
+          "created": "2017-03-28T01:01:05.886Z",
+          "updated": "2017-03-28T02:21:57.274Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "4.3",
+          "created": "2017-03-28T02:22:24.760Z",
+          "updated": "2017-03-28T02:22:24.760Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-03-28T01:01:05.886Z",
+      "updated": "2017-03-28T02:22:24.760Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "GroupDeselectionResponse",
+      "source": null,
+      "values": [
+        {
+          "value": "No",
+          "created": "2017-03-30T21:28:50.310Z",
+          "updated": "2017-03-30T21:28:50.310Z",
+          "metadata": null,
+          "synonyms": [
+            "Nope"
+          ]
+        },
+        {
+          "value": "Yes",
+          "created": "2017-03-30T21:26:27.259Z",
+          "updated": "2017-03-30T21:26:27.259Z",
+          "metadata": null,
+          "synonyms": [
+            "yup"
+          ]
+        }
+      ],
+      "created": "2017-03-30T21:26:27.259Z",
+      "updated": "2017-03-30T21:28:50.310Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "Interest",
+      "source": null,
+      "values": [
+        {
+          "value": "Interest Rate",
+          "created": "2017-03-14T01:46:41.243Z",
+          "updated": "2017-03-14T01:46:41.243Z",
+          "metadata": null,
+          "synonyms": [
+            "Interest",
+            "Markup",
+            "Rate"
+          ]
+        }
+      ],
+      "created": "2017-03-14T01:46:41.243Z",
+      "updated": "2017-03-14T01:46:41.243Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "PrivateCollege",
+      "source": null,
+      "values": [
+        {
+          "value": "Private",
+          "created": "2017-03-29T19:16:05.842Z",
+          "updated": "2017-03-29T19:16:24.645Z",
+          "metadata": null,
+          "synonyms": [
+            "Expensive",
+            "Ivy",
+            "Ivy League"
+          ]
+        }
+      ],
+      "created": "2017-03-29T19:16:05.842Z",
+      "updated": "2017-03-29T19:16:24.645Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "SATscore",
+      "source": null,
+      "values": [
+        {
+          "value": "1000",
+          "created": "2017-03-28T02:22:38.416Z",
+          "updated": "2017-03-28T02:22:38.416Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "1100",
+          "created": "2017-03-28T02:22:41.876Z",
+          "updated": "2017-03-28T02:22:41.876Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "1200",
+          "created": "2017-03-28T02:22:45.647Z",
+          "updated": "2017-03-28T02:22:45.647Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "1300",
+          "created": "2017-03-28T02:22:50.639Z",
+          "updated": "2017-03-28T02:22:50.639Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "1400",
+          "created": "2017-03-28T01:00:16.547Z",
+          "updated": "2017-03-28T02:22:57.988Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "800",
+          "created": "2017-03-28T01:00:16.547Z",
+          "updated": "2017-03-28T02:23:01.617Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "900",
+          "created": "2017-03-28T02:22:35.159Z",
+          "updated": "2017-03-28T02:22:35.159Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-03-28T01:00:16.547Z",
+      "updated": "2017-03-28T02:23:01.617Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "VarsitySports",
+      "source": null,
+      "values": [
+        {
+          "value": "Basketball",
+          "created": "2017-03-25T01:26:38.822Z",
+          "updated": "2017-03-25T01:26:38.822Z",
+          "metadata": null,
+          "synonyms": [
+            "Cheerleading",
+            "Football",
+            "Hockey",
+            "Tennis",
+            "Volleyball"
+          ]
+        }
+      ],
+      "created": "2017-03-25T01:26:38.745Z",
+      "updated": "2017-03-25T01:26:38.745Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "Zipcode",
+      "source": null,
+      "values": [
+        {
+          "value": "11238",
+          "created": "2017-03-28T00:57:37.016Z",
+          "updated": "2017-03-28T00:57:37.016Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "55555",
+          "created": "2017-03-28T00:57:37.016Z",
+          "updated": "2017-03-28T00:57:37.016Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "90210",
+          "created": "2017-03-28T00:57:37.016Z",
+          "updated": "2017-03-28T00:57:37.016Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-03-28T00:57:37.016Z",
+      "updated": "2017-03-28T00:57:37.016Z",
+      "open_list": null,
+      "description": null
+    }
+  ],
+  "language": "en",
+  "metadata": null,
+  "description": null,
+  "dialog_nodes": [
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "A college's website, Facebook page and Twitter feed can tell you all about campus living. Look for information on campus clubs and organizations, cultural events, student government, sports, and more."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ6LearnMore",
+      "context": null,
+      "created": "2017-04-03T21:06:47.474Z",
+      "updated": "2017-04-03T21:29:49.766Z",
+      "metadata": null,
+      "conditions": "@6CampusLife",
+      "description": null,
+      "dialog_node": "CampusLIfe",
+      "previous_sibling": "Online"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Although the cost of college is certainly an important factor, you should not concentrate on it until later in your college-selection process. Instead, focus on finding a college that is a good fit — one that meets your academic, career and personal needs. In some cases, you might have a better chance of receiving aid from a private college and end up paying a lower total price than at a public college. Private colleges often offer more financial aid to attract students from every income level."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-03-29T19:13:44.977Z",
+      "updated": "2017-03-29T19:28:13.142Z",
+      "metadata": null,
+      "conditions": "@PrivateCollege:Private",
+      "description": null,
+      "dialog_node": "OutOfReach",
+      "previous_sibling": "NotSureOfCareerPath"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Ask yourself what’s important to you, where you want to be and who you want to become. Then you can figure out what types of colleges will allow you to reach your goals. Here are some aspects to consider: Size; Location; Distance from home; Available majors and classes; Housing options; Makeup of the student body; Available extracurricular activities; Campus atmosphere; Which of these aspects are things you feel you must have to be comfortable at a college? Which things are you flexible on? Also, think about what you want to accomplish in college. Do you want to train for a specific job or get a wide-ranging education? If you have a major in mind, are the colleges you’re considering strong in that area?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ1SearchInitiation",
+      "context": null,
+      "created": "2017-04-03T18:18:40.049Z",
+      "updated": "2017-04-03T18:31:10.407Z",
+      "metadata": null,
+      "conditions": "@1HowToDecide",
+      "description": null,
+      "dialog_node": "HowToDecide",
+      "previous_sibling": "DefinitionFit"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Awesome.  Last one.  What do you think you want to Major in?  Its ok to say I don't know!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T01:05:32.472Z",
+      "updated": "2017-03-28T01:06:28.163Z",
+      "metadata": null,
+      "conditions": "@GPA",
+      "description": null,
+      "dialog_node": "GetMajor",
+      "previous_sibling": "GetGPA"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Basic course information is often available in an online catalog. You can read short descriptions of all the current classes, learn about frequently offered elective classes and find out the requirements for each major."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ6LearnMore",
+      "context": null,
+      "created": "2017-04-03T21:07:16.067Z",
+      "updated": "2017-04-03T21:30:08.989Z",
+      "metadata": null,
+      "conditions": "@6CourseOfferings",
+      "description": null,
+      "dialog_node": "CourseOfferings",
+      "previous_sibling": "CampusLIfe"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Career schools, also known as technical, vocational, or trade schools may be public or private, although many are for-profit businesses; typically offer programs that are two years or less; and provide students with formal classes and hands-on experience related to their future career interests, from welding to cosmetology to medical imaging. Technical schools teach the science behind the occupation, while vocational schools focus on hands-on application of skills needed to do the job. You may earn a diploma or a certificate, prepare for a licensing exam, or study to begin work as an apprentice or journeyman in a skilled trade."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ3CollegeType",
+      "context": null,
+      "created": "2017-04-03T17:25:54.923Z",
+      "updated": "2017-04-03T17:35:40.621Z",
+      "metadata": null,
+      "conditions": "@3CollegeTypes:(Career Schools)",
+      "description": null,
+      "dialog_node": "CareerSchools",
+      "previous_sibling": "2yrColleges"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Check out a posted syllabus to learn about the subjects a course explores and to estimate a class's workload. Read about professors' interests and expectations to find out what sorts of teachers you'll learn from. If you find a particular professor's research interesting, consider sending him or her an email."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ6LearnMore",
+      "context": null,
+      "created": "2017-04-03T21:08:10.296Z",
+      "updated": "2017-04-03T21:30:21.025Z",
+      "metadata": null,
+      "conditions": "@6AcademicDepts",
+      "description": null,
+      "dialog_node": "AcademicDepartments",
+      "previous_sibling": "CourseOfferings"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "College can be very fulfilling beyond the classroom.  You can grow in a number of areas like: Sports, Arts, Student Government, and Citizen Advocacy"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ4CollegeLife",
+      "context": null,
+      "created": "2017-04-03T20:07:54.849Z",
+      "updated": "2017-04-03T20:16:52.630Z",
+      "metadata": null,
+      "conditions": "@4ExtraCurricular",
+      "description": null,
+      "dialog_node": "ExtraCurricular",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "College has many benefits. For example, people who graduate from college earn more money and are more likely to hold a job than those who don’t graduate from college. In 2011, people with a bachelor’s degree who worked full-time earned $21,100 more, on average, than full-time workers with only a high school diploma. Learn more about how college education pays."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-03-29T19:32:00.419Z",
+      "updated": "2017-03-29T19:33:06.621Z",
+      "metadata": null,
+      "conditions": "@CollegeROI:Worth",
+      "description": null,
+      "dialog_node": "Worth",
+      "previous_sibling": "OutOfReach"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Community colleges and junior colleges award associate degrees once students have successfully completed a two-year course of study. Some two-year colleges grant diplomas or certificates of completion to students who have met course requirements and are ready to practice in their career fields, such as nursing. Community and junior colleges are similar, except that a junior college is usually a private school. Because costs are often lower and admission is more open at two-year colleges, many students begin their college careers here. If you plan to start at a community or junior college and later transfer to a four-year college, you should make sure your community college courses will transfer to those colleges you are interested in and that your courses will count toward your bachelor’s degree. Many community colleges have “articulation agreements” with four-year colleges under which the course work taken at the community college transfers into the four-year degree program. Be sure to ask about the types of articulation agreements the community college has, with whom, and for what programs of study."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ3CollegeType",
+      "context": null,
+      "created": "2017-04-03T17:25:27.980Z",
+      "updated": "2017-04-03T17:31:33.280Z",
+      "metadata": null,
+      "conditions": "@3CollegeDuration:(2 Year)",
+      "description": null,
+      "dialog_node": "2yrColleges",
+      "previous_sibling": "4yrColleges"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Coolio.  How about your GPA? The reason why i'm asking is so that I can find the best school for you!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T01:04:09.037Z",
+      "updated": "2017-03-28T01:05:23.559Z",
+      "metadata": null,
+      "conditions": "@SATscore",
+      "description": null,
+      "dialog_node": "GetGPA",
+      "previous_sibling": "GetSAT"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Despite all the news stories about rising college prices, a college education is more affordable than most people believe. There are many colleges that provide an excellent educational experience at a price you can manage. Public college prices are much lower than you might expect."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-04-03T19:31:38.504Z",
+      "updated": "2017-04-03T19:50:01.654Z",
+      "metadata": null,
+      "conditions": "@2GeneralAffordability",
+      "description": null,
+      "dialog_node": "GeneralAffordability",
+      "previous_sibling": "AdmissionsQualitites"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Encourage your parent(s) to meet with your high school guidance counselor to learn more about the college process. It’s important that your parent(s) know the importance of exploring colleges that are a good fit for you academically, socially, and financially. Talk to your parent(s) about your college process by sharing what colleges you are considering and what factors are important to you. Ask your parent(s) to take you to visit a nearby college and meet with someone from the Office of Admissions or Financial Aid Office. Many colleges have ‘Open Houses’ that your parent(s) can also attend. Talk to your parent(s) about the importance of saving up money to pay for college. Your parent(s) should know that one of the most important things they can do is help you apply for Financial Aid by submitting the FAFSA as early as January 1st of your senior year."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ6LearnMore",
+      "context": null,
+      "created": "2017-04-03T21:08:58.453Z",
+      "updated": "2017-04-03T21:31:08.469Z",
+      "metadata": null,
+      "conditions": "@6Parents",
+      "description": null,
+      "dialog_node": "Parents",
+      "previous_sibling": "SupportServices"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Great thanks.  Can you give me your composite SAT score? Highest one is best!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T00:56:42.439Z",
+      "updated": "2017-03-28T00:59:02.905Z",
+      "metadata": null,
+      "conditions": "@Zipcode",
+      "description": null,
+      "dialog_node": "GetSAT",
+      "previous_sibling": "GetLocation"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Here are some of the benefits associated with big colleges. Keep in mind, these may not be true of all of them: Wide variety of majors and courses; Well-stocked libraries; Variety of housing opportunities; Well-funded sports programs; Wide range of academic choices and student activities; Distinguished or famous faculty; State-of-the-art research facilities"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ3CollegeType",
+      "context": null,
+      "created": "2017-04-03T17:26:20.657Z",
+      "updated": "2017-04-03T17:35:52.816Z",
+      "metadata": null,
+      "conditions": "@3CollegeSize:(Large College)",
+      "description": null,
+      "dialog_node": "LargeSchools",
+      "previous_sibling": "CareerSchools"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Here are some of the benefits associated with small colleges. Again, these may not be true of all of them: Small class sizes; Hands-on learning opportunities; Individually designed majors; Strong advising system; advisers know students well; Strong sense of community; Professors, not teaching assistants, teach most courses; Opportunity to get to know professors well"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ3CollegeType",
+      "context": null,
+      "created": "2017-04-03T17:27:01.059Z",
+      "updated": "2017-04-03T17:36:16.102Z",
+      "metadata": null,
+      "conditions": "@3CollegeSize:(Small College)",
+      "description": null,
+      "dialog_node": "SmallSchools",
+      "previous_sibling": "LargeSchools"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Hi I'm Watson, I know you must have a lot of questions about going to college.  I can help recommend schools that should fit you best.  In order for me to provide you with a list, I just need to ask you a few questions ok?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T00:34:44.378Z",
+      "updated": "2017-03-28T00:46:10.247Z",
+      "metadata": null,
+      "conditions": "welcome",
+      "description": null,
+      "dialog_node": "Welcome Message",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Hmm... I must admit, i'm not quite sure what you mean.  Can you try a different way to explain?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T00:34:59.425Z",
+      "updated": "2017-04-03T18:40:17.067Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "UNRECOGNIZED",
+      "previous_sibling": "OpenQ6LearnMore"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "If you’re at this point in the process, you’ve probably already looked into things such as location, size and majors offered. Here are some other things to research: Variety of academic programs offered; Special programs, such as study abroad; Clubs and activities on campus; Housing options; Available facilities, such as labs, theaters and gyms; A great way to narrow your list is to start making college visits, if possible. You can also make virtual campus visits."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ5NextStep",
+      "context": null,
+      "created": "2017-04-03T20:28:07.321Z",
+      "updated": "2017-04-03T20:34:25.689Z",
+      "metadata": null,
+      "conditions": "@5NarrowDownList",
+      "description": null,
+      "dialog_node": "NarrowDownList",
+      "previous_sibling": "WhatDoIDoNext"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "NEW: \"It takes some time, focus and dedication to get into college.  The whole process can take anywhere from 1-4 months depending on how many schools you apply to, how much time per week you can devote, and how in depth each school's application process is.  Typically, a student follows these steps: LINK1: Determine if College is right for you LINK2: Finding a Shortlist of College that fit you best LINK3: Visiting College Campuses (Optional) LINK4: Applying for colleges before their deadlines LINK5: Reviewing Acceptence Letters and deciding which school to attend  LINK6: Sorting out how you'll pay for College\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ1SearchInitiation",
+      "context": null,
+      "created": "2017-04-03T18:20:36.554Z",
+      "updated": "2017-04-03T18:32:23.107Z",
+      "metadata": null,
+      "conditions": "@1SearchEffort",
+      "description": null,
+      "dialog_node": "SearchEffort",
+      "previous_sibling": "BuildingLists"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "NEW: \"There is a certain process to Finding out the right college for you and being admitted.  Your next step will really depend on where you are in the cycle.  Choose from the list below to see what your next step should be.   Link1: I wonder if College is right for me Link2: How do I begin the Search for the right College for me Link3: Selecting the right College Type for you Link4: What do I need to consider beyond Academics when selecting the right College for me\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ5NextStep",
+      "context": null,
+      "created": "2017-04-03T20:24:15.041Z",
+      "updated": "2017-04-03T20:34:12.434Z",
+      "metadata": null,
+      "conditions": "@5DoNext",
+      "description": null,
+      "dialog_node": "WhatDoIDoNext",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Often, students say that college led them to career paths they never imagined for themselves, or weren't even aware of. So, even if you know what courses you want to study, even if you already have a possible career in mind, stay open to new opportunities. If you’re not completely sure what career path is right for you, college or career school can help you figure it out."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-04-03T19:34:21.938Z",
+      "updated": "2017-04-03T19:49:24.453Z",
+      "metadata": null,
+      "conditions": "@2UnsureCareer",
+      "description": null,
+      "dialog_node": "NotSureOfCareerPath",
+      "previous_sibling": "NotSureOfMajor"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Ok, i'll leave in all the other schools for this feature.  If you want, you can deselect them manually"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "DeselectMajorCities",
+      "context": null,
+      "created": "2017-03-30T21:30:45.961Z",
+      "updated": "2017-03-30T21:31:54.437Z",
+      "metadata": null,
+      "conditions": "@GroupDeselectionResponse:No",
+      "description": null,
+      "dialog_node": "KeepOtherLocationSchool",
+      "previous_sibling": "RemoveSimilarLocationSchools"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Ok, i\"ve gone ahead and removed similar types of schools from your list for the feature: LOCATION"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "DeselectMajorCities",
+      "context": null,
+      "created": "2017-03-30T21:27:03.710Z",
+      "updated": "2017-03-30T21:32:30.256Z",
+      "metadata": null,
+      "conditions": "@GroupDeselectionResponse:Yes",
+      "description": null,
+      "dialog_node": "RemoveSimilarLocationSchools",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "ok, so i see that you don't want to be attending College in a major city.  Shall I remove other schools based on this feature?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQA",
+      "context": null,
+      "created": "2017-03-30T21:05:55.563Z",
+      "updated": "2017-03-30T21:37:38.688Z",
+      "metadata": null,
+      "conditions": "#Deselecton_Location",
+      "description": null,
+      "dialog_node": "DeselectMajorCities",
+      "previous_sibling": "DeselectionReason"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Ok, so I see that you prefer schools that have fewer students.  Should I go ahead and remove other schools that tend to have many Undergrads?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQA",
+      "context": null,
+      "created": "2017-03-30T21:14:52.162Z",
+      "updated": "2017-03-30T21:38:00.470Z",
+      "metadata": null,
+      "conditions": "#Deselection_Size",
+      "description": null,
+      "dialog_node": "DeselectLargeSchools",
+      "previous_sibling": "DeselectMajorCities"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "On a college's website, you can learn about the services it provides to help its students succeed. Academic support can include tutoring, writing assistance and study-skills courses. Other support includes things like help with the financial aid process, counseling and career-planning services."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ6LearnMore",
+      "context": null,
+      "created": "2017-04-03T21:08:36.659Z",
+      "updated": "2017-04-03T21:32:43.772Z",
+      "metadata": null,
+      "conditions": "@6SupportServices",
+      "description": null,
+      "dialog_node": "SupportServices",
+      "previous_sibling": "AcademicDepartments"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Students who attend a four-year college or university typically earn a bachelor’s degree once they have successfully completed a program of study, which usually takes about four years. A college usually offers a four-year bachelor’s degree in the arts (such as English, history, drama) or sciences (such as biology, computer science, engineering). Some colleges also offer advanced degrees, such as master’s or other graduate degrees, after you’ve earned your bachelor’s degree. Universities offer bachelor’s, master’s, and doctorate degrees, and sometimes have professional schools such as a law school or medical school. Universities tend to be larger than colleges, may have larger class sizes, and often focus on scholarly or scientific research."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ3CollegeType",
+      "context": null,
+      "created": "2017-04-03T17:24:21.522Z",
+      "updated": "2017-04-03T17:31:23.696Z",
+      "metadata": null,
+      "conditions": "@3CollegeDuration:(4 Year)",
+      "description": null,
+      "dialog_node": "4yrColleges",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Take a virtual tour. In addition to basic  information—like the size of the campus and the student body—many college websites offer virtual campus tours. Get a closer look at different parts of the campus using interactive maps and other tools."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ6LearnMore",
+      "context": null,
+      "created": "2017-04-03T21:06:17.241Z",
+      "updated": "2017-04-03T21:29:34.906Z",
+      "metadata": null,
+      "conditions": "@6Online",
+      "description": null,
+      "dialog_node": "Online",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "\"The college search is about finding schools that match your abilities and interests, as well as help you to reach your personal goals.  When considering whether a school “fits” you, think about: size, location, distance from home, programs of study, extracurricular activities, diversity, and student life, among others. When considering fit, ask yourself: How far away do I want to be from home? A car ride, train ride, or plane ride away? (Consider costs for travel home during school vacations.); Do I want a small community where I recognize almost every face as I walk around my college campus (and have people recognize me) or would I rather be in a bigger place where I can be a bit more anonymous?; Do I learn best in larger lectures or do I prefer smaller discussion-based classes?; Does the idea of attending college in a big city excite or frighten me?  How do I feel about living in a more rural or quiet setting?     What top three academic programs would my ideal college offer? What major or minor am I most interested in?; What top three extracurricular activities would the ideal college have for me?; What additional features would the ideal college for me have (e.g. writing center, math center, honor code, learning support center, access to a particular religious community)?; What kinds of people do I like spending time with or want to spend time with in college?  Artsy?  Athletic?  Passionate about helping others?  Studious?  Social?; What have I liked most about high school (consider size, extracurricular offerings, relationships with teachers, etc.)?; What have I liked least about high school (consider size, extracurricular offerings, relationships with teachers, etc.)? Use your answers to guide your college fit exploration.  For example, your answers regarding your high school experience can help you look for colleges that replicate aspects you love and alter those aspects you’d like to change. Researching a variety of schools will help you build a balanced list of schools to which you will ultimately apply.\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ1SearchInitiation",
+      "context": null,
+      "created": "2017-04-03T18:19:23.520Z",
+      "updated": "2017-04-03T18:31:27.089Z",
+      "metadata": null,
+      "conditions": "@1CollegeFit",
+      "description": null,
+      "dialog_node": "DefinitionFit",
+      "previous_sibling": "DefinitionTypes"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "The list of colleges you are interested in will evolve greatly during the admissions process, and it is important to proactively research your options. Websites (College Board and College Greenlight), college guidebooks, your high school’s college/career center, and the public library are great sources of information. Explore schools that fit your academic profile (meaning GPA and standardized test scores) as well as your personal and career interests.  Don’t focus too much on cost at the beginning of your search as most selective colleges offer generous financial aid packages. You should look at schools that fall into three categories: Reach Schools — Your GPA and standardized test scores fall at or below the school’s published data on accepted students and/or the acceptance rate is less than 30%.; Target Schools — Your GPA and standardized test scores fit the school’s published data on accepted students and the acceptance rate is around 30% - 60%.; Likely Schools — Your GPA and standardized test scores are at or above the school’s published data on accepted students and the acceptance rate is 60% or higher.; As you conduct your research, you might consider using this Jack Kent Cooke Foundation College Research Worksheet to organize your findings. When you craft your final list of 8-12 colleges to which you will ultimately apply, you should include schools from each category based on the following approximate distribution. Your final list of colleges should include: 2 – 3 Reach Schools; 4 – 5 Target Schools; 2 – 3 Likely Schools"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ1SearchInitiation",
+      "context": null,
+      "created": "2017-04-03T18:19:42.181Z",
+      "updated": "2017-04-03T18:31:44.646Z",
+      "metadata": null,
+      "conditions": "@1BuildingLists",
+      "description": null,
+      "dialog_node": "BuildingLists",
+      "previous_sibling": "HowToDecide"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "There is a wide array of schools available for higher education.  Options include two- and four-year colleges and universities, vocational, trade, and career schools, online schools, and graduate schools."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ1SearchInitiation",
+      "context": null,
+      "created": "2017-04-03T18:15:14.389Z",
+      "updated": "2017-04-03T18:29:06.836Z",
+      "metadata": null,
+      "conditions": "@1TypesOfSchools",
+      "description": null,
+      "dialog_node": "DefinitionTypes",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "They take into account more than your GPA and test scores. Your character and the personal qualities you can bring to a college are important too. That’s why you need to think about your goals, accomplishments and personal values and figure out how you can best express those in your applications."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-04-03T19:30:34.134Z",
+      "updated": "2017-04-03T19:48:10.752Z",
+      "metadata": null,
+      "conditions": "@2AdmissionsOfficers",
+      "description": null,
+      "dialog_node": "Admissions",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "To learn more about the colleges you're considering, check out college guidebooks and the colleges’ websites. Jot down your questions and get answers by: Talking to your school counselor or teachers; Checking out colleges’ student blogs, if available; Contacting college admission officials; Asking admission officials to recommend current students or recent graduates to talk to; Visiting college campuses, if possible."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ6LearnMore",
+      "context": null,
+      "created": "2017-04-03T21:09:15.920Z",
+      "updated": "2017-04-03T21:10:37.045Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "GeneralInvestigation",
+      "previous_sibling": "Parents"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "\"What is it that makes you unique, and how will you contribute to the life of our campus?” That’s what admission officers want to know, according to Earl Johnson, dean of admission at the University of Tulsa. To gauge what students can bring to their campus, they look for these types of qualities: Leadership; A willingness to take risks; Initiative; A sense of social responsibility; A commitment to service; Special talents or abilities. Overall, colleges want a mix of students to create a rich campus community. They want the class valedictorians, says Marty O’Connell, executive director of Colleges That Change Lives. But they also are looking for “students who are going to be involved in a lot of activities and students who are musicians and students who are athletes and everything in between.”"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-04-03T19:32:19.753Z",
+      "updated": "2017-04-03T19:49:54.649Z",
+      "metadata": null,
+      "conditions": "@2AdmissionsQualities",
+      "description": null,
+      "dialog_node": "AdmissionsQualitites",
+      "previous_sibling": "Worth"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Where do you live?  Please enter your Zipcode"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T00:48:15.346Z",
+      "updated": "2017-03-28T00:51:11.057Z",
+      "metadata": null,
+      "conditions": "#GetLocation",
+      "description": null,
+      "dialog_node": "GetLocation",
+      "previous_sibling": "Welcome Message"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Why do you not like that school?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQA",
+      "context": null,
+      "created": "2017-03-30T21:02:04.922Z",
+      "updated": "2017-03-30T21:44:24.045Z",
+      "metadata": null,
+      "conditions": "@Deselection",
+      "description": null,
+      "dialog_node": "DeselectionReason",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Yes. Colleges have different levels of support for students with learning disabilities.  Each school will have an office designated to working with students with learning differences. You will need to contact that office and provide required documentation including a copy of your IEP or 504 Plan from high school and/or reports from academic and cognitive testing."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-04-03T19:32:57.011Z",
+      "updated": "2017-04-03T19:49:06.004Z",
+      "metadata": null,
+      "conditions": "@2Disabilities",
+      "description": null,
+      "dialog_node": "Disabilities",
+      "previous_sibling": "Admissions"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Yes. You have plenty of time to choose a major, both before and after you enroll in college. In fact, declaring your major early limits one of the opportunities college offers: to experiment and explore different fields, and perhaps discover ones you haven't even heard of yet. At most colleges, you don't have to choose a major until the end of your sophomore year. Until then, you can take courses in a variety of fields. You’ll earn general education credits that count toward your degree, no matter what you major in. As you take different classes, you’ll probably find a subject area you love. On the other hand, you should know that some majors, especially in career-oriented fields like engineering and design, require lots of courses that have to be taken in order. Starting one of those majors after your freshman year can mean that it takes you longer to complete your degree. However, you can often begin taking classes in the field before you formally declare it as your major."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-04-03T19:34:49.958Z",
+      "updated": "2017-04-03T19:49:15.147Z",
+      "metadata": null,
+      "conditions": "@2UnsureMajor",
+      "description": null,
+      "dialog_node": "NotSureOfMajor",
+      "previous_sibling": "Disabilities"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "4yrColleges"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "I3: Ok, sounds to me like youre at the stage where you want to learn more about College Types"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-03T17:20:02.162Z",
+      "updated": "2017-04-03T19:55:46.113Z",
+      "metadata": null,
+      "conditions": "#CollegeType",
+      "description": null,
+      "dialog_node": "OpenQ3CollegeType",
+      "previous_sibling": "OpenQ2CollegeQualification"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "DefinitionTypes"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "I1: Ok, I see you have a question about how to start searching for the college you want.  The first thing you can do is: Use the College Board step-by-step search here:  https://bigfuture.collegeboard.org/college-search"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T01:32:45.933Z",
+      "updated": "2017-04-03T19:55:28.672Z",
+      "metadata": null,
+      "conditions": "#SearchInitiation",
+      "description": null,
+      "dialog_node": "OpenQ1SearchInitiation",
+      "previous_sibling": "OpenQA"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "DeselectionReason"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Great.  I have all i need.  before I show you the results.  Its your turn to fire off any questions you have in the process."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T01:06:40.098Z",
+      "updated": "2017-04-03T18:12:47.582Z",
+      "metadata": null,
+      "conditions": "@ExpectedMajor",
+      "description": null,
+      "dialog_node": "OpenQA",
+      "previous_sibling": "GetMajor"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "ExtraCurricular"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "I4: Ok great, I think you're getting deeper into issues about how your life would be at College.  Lets explore this route shall we..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-03T17:59:59.420Z",
+      "updated": "2017-04-03T20:17:00.764Z",
+      "metadata": null,
+      "conditions": "#CollegeLife",
+      "description": null,
+      "dialog_node": "OpenQ4CollegeLife",
+      "previous_sibling": "OpenQ3CollegeType"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "Online"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-04-03T20:45:25.868Z",
+      "updated": "2017-04-03T21:55:13.972Z",
+      "metadata": null,
+      "conditions": "#6LearnMore",
+      "description": null,
+      "dialog_node": "OpenQ6LearnMore",
+      "previous_sibling": "OpenQ5NextStep"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "OutOfReach"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-03-28T01:40:01.036Z",
+      "updated": "2017-04-03T22:43:34.963Z",
+      "metadata": null,
+      "conditions": "#CollegeQualification",
+      "description": null,
+      "dialog_node": "OpenQ2CollegeQualification",
+      "previous_sibling": "OpenQ1SearchInitiation"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "WhatDoIDoNext"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "I5: Alright.  Looks like you're ready for a discussion about Next Steps.  I'm happy to walk you through that process."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-03T18:02:32.775Z",
+      "updated": "2017-04-03T21:13:39.707Z",
+      "metadata": null,
+      "conditions": "#NextSteps",
+      "description": null,
+      "dialog_node": "OpenQ5NextStep",
+      "previous_sibling": "OpenQ4CollegeLife"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "I2: Sure. So I get the feeling that you're not quite sure if you want to go to College at all."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "OpenQ2CollegeQualification",
+      "context": null,
+      "created": "2017-03-28T02:28:31.867Z",
+      "updated": "2017-04-03T19:55:35.132Z",
+      "metadata": null,
+      "conditions": " #CollegeQualification",
+      "description": null,
+      "dialog_node": "node_11_1490668111318",
+      "previous_sibling": "GeneralAffordability"
+    }
+  ],
+  "workspace_id": "77fddb7e-8647-457a-9b72-9400322f3465",
+  "counterexamples": []
+}
