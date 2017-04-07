@@ -1,349 +1,7 @@
 {
   "name": "JKCF Prototype",
-  "created": "2017-03-31T16:38:08.940Z",
+  "created": "2017-03-14T01:42:11.690Z",
   "intents": [
-    {
-      "intent": "6LearnMore",
-      "created": "2017-04-03T21:05:39.596Z",
-      "updated": "2017-04-03T21:54:23.347Z",
-      "examples": [
-        {
-          "text": "how do i get more informed about",
-          "created": "2017-04-03T21:50:42.214Z",
-          "updated": "2017-04-03T21:50:42.214Z"
-        },
-        {
-          "text": "How do I learn about academic departments at a college?",
-          "created": "2017-04-03T21:05:39.596Z",
-          "updated": "2017-04-03T21:05:39.596Z"
-        },
-        {
-          "text": "How do I learn about colleges online?",
-          "created": "2017-04-03T21:05:39.596Z",
-          "updated": "2017-04-03T21:05:39.596Z"
-        },
-        {
-          "text": "How do I learn about course offerings at a college?",
-          "created": "2017-04-03T21:05:39.596Z",
-          "updated": "2017-04-03T21:05:39.596Z"
-        },
-        {
-          "text": "How do I learn about everyday life on campus?",
-          "created": "2017-04-03T21:05:39.596Z",
-          "updated": "2017-04-03T21:05:39.596Z"
-        },
-        {
-          "text": "How do I learn about support services on campus?",
-          "created": "2017-04-03T21:05:39.596Z",
-          "updated": "2017-04-03T21:05:39.596Z"
-        },
-        {
-          "text": "How do I learn more about a college?",
-          "created": "2017-04-03T21:05:39.596Z",
-          "updated": "2017-04-03T21:05:39.596Z"
-        },
-        {
-          "text": "i'm interested in finding out more about",
-          "created": "2017-04-03T21:50:15.902Z",
-          "updated": "2017-04-03T21:50:15.902Z"
-        },
-        {
-          "text": "I want to find out more information on",
-          "created": "2017-04-03T21:49:04.581Z",
-          "updated": "2017-04-03T21:49:04.581Z"
-        },
-        {
-          "text": "I want to learn more information about",
-          "created": "2017-04-03T21:49:38.096Z",
-          "updated": "2017-04-03T21:49:38.096Z"
-        },
-        {
-          "text": "My parents never went to college. What do they need to do to get informed?",
-          "created": "2017-04-03T21:05:39.596Z",
-          "updated": "2017-04-03T21:05:39.596Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "CollegeLife",
-      "created": "2017-04-03T18:04:51.924Z",
-      "updated": "2017-04-03T18:04:51.924Z",
-      "examples": [
-        {
-          "text": "How do I choose strong Extra Curricular activities in a college?",
-          "created": "2017-04-03T18:04:51.924Z",
-          "updated": "2017-04-03T18:04:51.924Z"
-        },
-        {
-          "text": "Is there more to college than grades?",
-          "created": "2017-04-03T18:04:51.924Z",
-          "updated": "2017-04-03T18:04:51.924Z"
-        },
-        {
-          "text": "What else beyond academics should I look for in a College?",
-          "created": "2017-04-03T18:04:51.924Z",
-          "updated": "2017-04-03T18:04:51.924Z"
-        },
-        {
-          "text": "What is important beyond the classroom?",
-          "created": "2017-04-03T18:04:51.924Z",
-          "updated": "2017-04-03T18:04:51.924Z"
-        },
-        {
-          "text": "What should I think about besides classes?",
-          "created": "2017-04-03T18:04:51.924Z",
-          "updated": "2017-04-03T18:04:51.924Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "CollegeQualification",
-      "created": "2017-03-14T01:44:04.910Z",
-      "updated": "2017-03-29T19:09:28.479Z",
-      "examples": [
-        {
-          "text": "Are private colleges out of my reach?",
-          "created": "2017-03-29T19:08:52.150Z",
-          "updated": "2017-03-29T19:08:52.150Z"
-        },
-        {
-          "text": "Can I afford to go to college?",
-          "created": "2017-03-29T19:08:40.199Z",
-          "updated": "2017-03-29T19:08:40.199Z"
-        },
-        {
-          "text": "If I dont know what I want to major in, does it make sense to go to college?",
-          "created": "2017-03-29T19:09:28.479Z",
-          "updated": "2017-03-29T19:09:28.479Z"
-        },
-        {
-          "text": "I have a learning disability. Can I still go to college?",
-          "created": "2017-03-29T19:09:13.267Z",
-          "updated": "2017-03-29T19:09:13.267Z"
-        },
-        {
-          "text": "Is college worth the cost?",
-          "created": "2017-03-29T19:09:06.087Z",
-          "updated": "2017-03-29T19:09:06.087Z"
-        },
-        {
-          "text": "What if Im still not sure what I want to do?",
-          "created": "2017-03-29T19:09:20.321Z",
-          "updated": "2017-03-29T19:09:20.321Z"
-        },
-        {
-          "text": "What qualities do colleges want?",
-          "created": "2017-03-29T19:08:58.067Z",
-          "updated": "2017-03-29T19:08:58.067Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "CollegeType",
-      "created": "2017-04-03T17:23:18.179Z",
-      "updated": "2017-04-03T17:38:24.715Z",
-      "examples": [
-        {
-          "text": "What are career schools?",
-          "created": "2017-04-03T17:23:18.179Z",
-          "updated": "2017-04-03T17:23:18.179Z"
-        },
-        {
-          "text": "What are some benefits of large colleges?",
-          "created": "2017-04-03T17:23:18.179Z",
-          "updated": "2017-04-03T17:23:18.179Z"
-        },
-        {
-          "text": "What are some benefits of small colleges?",
-          "created": "2017-04-03T17:23:18.179Z",
-          "updated": "2017-04-03T17:23:18.179Z"
-        },
-        {
-          "text": "What are Two-year Colleges",
-          "created": "2017-04-03T17:23:18.179Z",
-          "updated": "2017-04-03T17:23:18.179Z"
-        },
-        {
-          "text": "what is a four-year college?",
-          "created": "2017-04-03T17:38:24.715Z",
-          "updated": "2017-04-03T17:38:24.715Z"
-        },
-        {
-          "text": "What is a four-year college or university?",
-          "created": "2017-04-03T17:23:18.179Z",
-          "updated": "2017-04-03T17:23:18.179Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "Deselection_Size",
-      "created": "2017-03-30T21:18:50.360Z",
-      "updated": "2017-03-30T21:18:50.360Z",
-      "examples": [
-        {
-          "text": "I don't like large schools",
-          "created": "2017-03-30T21:18:50.360Z",
-          "updated": "2017-03-30T21:18:50.360Z"
-        },
-        {
-          "text": "I don't want to go to college with too many people",
-          "created": "2017-03-30T21:18:50.360Z",
-          "updated": "2017-03-30T21:18:50.360Z"
-        },
-        {
-          "text": "I'd rather not be at a college with lots of students",
-          "created": "2017-03-30T21:18:50.360Z",
-          "updated": "2017-03-30T21:18:50.360Z"
-        },
-        {
-          "text": "I like it when the colleges have fewer undergrads",
-          "created": "2017-03-30T21:18:50.360Z",
-          "updated": "2017-03-30T21:18:50.360Z"
-        },
-        {
-          "text": "I prefer colleges with smaller class sizes",
-          "created": "2017-03-30T21:18:50.360Z",
-          "updated": "2017-03-30T21:18:50.360Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "Deselecton_Location",
-      "created": "2017-03-30T21:11:42.429Z",
-      "updated": "2017-03-30T21:11:42.429Z",
-      "examples": [
-        {
-          "text": "Don't want a college in a major urban area",
-          "created": "2017-03-30T21:11:42.429Z",
-          "updated": "2017-03-30T21:11:42.429Z"
-        },
-        {
-          "text": "Don't want to attend a school that has lots of traffic",
-          "created": "2017-03-30T21:11:42.429Z",
-          "updated": "2017-03-30T21:11:42.429Z"
-        },
-        {
-          "text": "I don't like city schools",
-          "created": "2017-03-30T21:11:42.429Z",
-          "updated": "2017-03-30T21:11:42.429Z"
-        },
-        {
-          "text": "I don't like colleges in a big place",
-          "created": "2017-03-30T21:11:42.429Z",
-          "updated": "2017-03-30T21:11:42.429Z"
-        },
-        {
-          "text": "I don't want schools in a major city",
-          "created": "2017-03-30T21:11:42.429Z",
-          "updated": "2017-03-30T21:11:42.429Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "GetLocation",
-      "created": "2017-03-14T01:43:54.037Z",
-      "updated": "2017-04-03T21:37:23.583Z",
-      "examples": [
-        {
-          "text": "ok",
-          "created": "2017-04-03T21:37:23.583Z",
-          "updated": "2017-04-03T21:37:23.583Z"
-        },
-        {
-          "text": "sure",
-          "created": "2017-03-28T00:51:49.282Z",
-          "updated": "2017-03-28T00:51:49.282Z"
-        },
-        {
-          "text": "yes",
-          "created": "2017-03-28T00:51:41.766Z",
-          "updated": "2017-03-28T00:51:41.766Z"
-        },
-        {
-          "text": "you bet",
-          "created": "2017-03-28T00:51:53.590Z",
-          "updated": "2017-03-28T00:51:53.590Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "NextSteps",
-      "created": "2017-04-03T18:06:43.589Z",
-      "updated": "2017-04-03T20:40:33.087Z",
-      "examples": [
-        {
-          "text": "how do i refine my college list?",
-          "created": "2017-04-03T20:40:33.087Z",
-          "updated": "2017-04-03T20:40:33.087Z"
-        },
-        {
-          "text": "I know which kinds of schools I want, but can't get down to a shortlist",
-          "created": "2017-04-03T18:06:43.589Z",
-          "updated": "2017-04-03T18:06:43.589Z"
-        },
-        {
-          "text": "I think I know that I want to go to a large school.  What else do I need to consider?",
-          "created": "2017-04-03T18:06:43.589Z",
-          "updated": "2017-04-03T18:06:43.589Z"
-        },
-        {
-          "text": "Ok, I think I'm interested in pursuing college.  What should be my next step?",
-          "created": "2017-04-03T18:06:43.589Z",
-          "updated": "2017-04-03T18:06:43.589Z"
-        },
-        {
-          "text": "What do I do next?",
-          "created": "2017-04-03T18:06:43.589Z",
-          "updated": "2017-04-03T18:06:43.589Z"
-        },
-        {
-          "text": "What do I need to consider beyond Academics when selecting the right College for me",
-          "created": "2017-04-03T18:06:43.589Z",
-          "updated": "2017-04-03T18:06:43.589Z"
-        }
-      ],
-      "description": null
-    },
-    {
-      "intent": "SearchInitiation",
-      "created": "2017-03-25T01:37:13.679Z",
-      "updated": "2017-04-03T18:26:10.583Z",
-      "examples": [
-        {
-          "text": "How do I create my list of colleges to apply to (build a balanced list)?",
-          "created": "2017-03-28T01:32:02.745Z",
-          "updated": "2017-03-28T01:32:02.745Z"
-        },
-        {
-          "text": "How do I decide what I want in a college?",
-          "created": "2017-03-28T01:31:40.927Z",
-          "updated": "2017-03-28T01:31:40.927Z"
-        },
-        {
-          "text": "How do I start searching for colleges?",
-          "created": "2017-03-25T01:37:13.754Z",
-          "updated": "2017-03-28T01:30:48.828Z"
-        },
-        {
-          "text": "What is college fit?",
-          "created": "2017-03-28T01:31:48.982Z",
-          "updated": "2017-03-28T01:31:48.982Z"
-        },
-        {
-          "text": "What types of schools are there?",
-          "created": "2017-03-28T01:30:55.869Z",
-          "updated": "2017-03-28T01:30:55.869Z"
-        }
-      ],
-      "description": null
-    },
     {
       "intent": "campusLife",
       "created": "2017-03-31T17:48:35.596Z",
@@ -881,13 +539,614 @@
         }
       ],
       "description": null
+    },
+    {
+      "intent": "6LearnMore",
+      "created": "2017-04-03T21:05:39.596Z",
+      "updated": "2017-04-03T21:54:23.347Z",
+      "examples": [
+        {
+          "text": "how do i get more informed about",
+          "created": "2017-04-03T21:50:42.214Z",
+          "updated": "2017-04-03T21:50:42.214Z"
+        },
+        {
+          "text": "How do I learn about academic departments at a college?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about colleges online?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about course offerings at a college?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about everyday life on campus?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn about support services on campus?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "How do I learn more about a college?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        },
+        {
+          "text": "i'm interested in finding out more about",
+          "created": "2017-04-03T21:50:15.902Z",
+          "updated": "2017-04-03T21:50:15.902Z"
+        },
+        {
+          "text": "I want to find out more information on",
+          "created": "2017-04-03T21:49:04.581Z",
+          "updated": "2017-04-03T21:49:04.581Z"
+        },
+        {
+          "text": "I want to learn more information about",
+          "created": "2017-04-03T21:49:38.096Z",
+          "updated": "2017-04-03T21:49:38.096Z"
+        },
+        {
+          "text": "My parents never went to college. What do they need to do to get informed?",
+          "created": "2017-04-03T21:05:39.596Z",
+          "updated": "2017-04-03T21:05:39.596Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "CollegeLife",
+      "created": "2017-04-03T18:04:51.924Z",
+      "updated": "2017-04-03T18:04:51.924Z",
+      "examples": [
+        {
+          "text": "How do I choose strong Extra Curricular activities in a college?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "Is there more to college than grades?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "What else beyond academics should I look for in a College?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "What is important beyond the classroom?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        },
+        {
+          "text": "What should I think about besides classes?",
+          "created": "2017-04-03T18:04:51.924Z",
+          "updated": "2017-04-03T18:04:51.924Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "CollegeQualification",
+      "created": "2017-03-14T01:44:04.910Z",
+      "updated": "2017-03-29T19:09:28.479Z",
+      "examples": [
+        {
+          "text": "Are private colleges out of my reach?",
+          "created": "2017-03-29T19:08:52.150Z",
+          "updated": "2017-03-29T19:08:52.150Z"
+        },
+        {
+          "text": "Can I afford to go to college?",
+          "created": "2017-03-29T19:08:40.199Z",
+          "updated": "2017-03-29T19:08:40.199Z"
+        },
+        {
+          "text": "If I dont know what I want to major in, does it make sense to go to college?",
+          "created": "2017-03-29T19:09:28.479Z",
+          "updated": "2017-03-29T19:09:28.479Z"
+        },
+        {
+          "text": "I have a learning disability. Can I still go to college?",
+          "created": "2017-03-29T19:09:13.267Z",
+          "updated": "2017-03-29T19:09:13.267Z"
+        },
+        {
+          "text": "Is college worth the cost?",
+          "created": "2017-03-29T19:09:06.087Z",
+          "updated": "2017-03-29T19:09:06.087Z"
+        },
+        {
+          "text": "What if Im still not sure what I want to do?",
+          "created": "2017-03-29T19:09:20.321Z",
+          "updated": "2017-03-29T19:09:20.321Z"
+        },
+        {
+          "text": "What qualities do colleges want?",
+          "created": "2017-03-29T19:08:58.067Z",
+          "updated": "2017-03-29T19:08:58.067Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "CollegeType",
+      "created": "2017-04-03T17:23:18.179Z",
+      "updated": "2017-04-03T17:38:24.715Z",
+      "examples": [
+        {
+          "text": "What are career schools?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "What are some benefits of large colleges?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "What are some benefits of small colleges?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "What are Two-year Colleges",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        },
+        {
+          "text": "what is a four-year college?",
+          "created": "2017-04-03T17:38:24.715Z",
+          "updated": "2017-04-03T17:38:24.715Z"
+        },
+        {
+          "text": "What is a four-year college or university?",
+          "created": "2017-04-03T17:23:18.179Z",
+          "updated": "2017-04-03T17:23:18.179Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "Deselection_Size",
+      "created": "2017-03-30T21:18:50.360Z",
+      "updated": "2017-03-30T21:18:50.360Z",
+      "examples": [
+        {
+          "text": "I don't like large schools",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I don't want to go to college with too many people",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I'd rather not be at a college with lots of students",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I like it when the colleges have fewer undergrads",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        },
+        {
+          "text": "I prefer colleges with smaller class sizes",
+          "created": "2017-03-30T21:18:50.360Z",
+          "updated": "2017-03-30T21:18:50.360Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "Deselecton_Location",
+      "created": "2017-03-30T21:11:42.429Z",
+      "updated": "2017-03-30T21:11:42.429Z",
+      "examples": [
+        {
+          "text": "Don't want a college in a major urban area",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "Don't want to attend a school that has lots of traffic",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "I don't like city schools",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "I don't like colleges in a big place",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        },
+        {
+          "text": "I don't want schools in a major city",
+          "created": "2017-03-30T21:11:42.429Z",
+          "updated": "2017-03-30T21:11:42.429Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "GetLocation",
+      "created": "2017-03-14T01:43:54.037Z",
+      "updated": "2017-04-03T21:37:23.583Z",
+      "examples": [
+        {
+          "text": "ok",
+          "created": "2017-04-03T21:37:23.583Z",
+          "updated": "2017-04-03T21:37:23.583Z"
+        },
+        {
+          "text": "sure",
+          "created": "2017-03-28T00:51:49.282Z",
+          "updated": "2017-03-28T00:51:49.282Z"
+        },
+        {
+          "text": "yes",
+          "created": "2017-03-28T00:51:41.766Z",
+          "updated": "2017-03-28T00:51:41.766Z"
+        },
+        {
+          "text": "you bet",
+          "created": "2017-03-28T00:51:53.590Z",
+          "updated": "2017-03-28T00:51:53.590Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "NextSteps",
+      "created": "2017-04-03T18:06:43.589Z",
+      "updated": "2017-04-03T20:40:33.087Z",
+      "examples": [
+        {
+          "text": "how do i refine my college list?",
+          "created": "2017-04-03T20:40:33.087Z",
+          "updated": "2017-04-03T20:40:33.087Z"
+        },
+        {
+          "text": "I know which kinds of schools I want, but can't get down to a shortlist",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "I think I know that I want to go to a large school.  What else do I need to consider?",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "Ok, I think I'm interested in pursuing college.  What should be my next step?",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "What do I do next?",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        },
+        {
+          "text": "What do I need to consider beyond Academics when selecting the right College for me",
+          "created": "2017-04-03T18:06:43.589Z",
+          "updated": "2017-04-03T18:06:43.589Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "SearchInitiation",
+      "created": "2017-03-25T01:37:13.679Z",
+      "updated": "2017-04-03T18:26:10.583Z",
+      "examples": [
+        {
+          "text": "How do I create my list of colleges to apply to (build a balanced list)?",
+          "created": "2017-03-28T01:32:02.745Z",
+          "updated": "2017-03-28T01:32:02.745Z"
+        },
+        {
+          "text": "How do I decide what I want in a college?",
+          "created": "2017-03-28T01:31:40.927Z",
+          "updated": "2017-03-28T01:31:40.927Z"
+        },
+        {
+          "text": "How do I start searching for colleges?",
+          "created": "2017-03-25T01:37:13.754Z",
+          "updated": "2017-03-28T01:30:48.828Z"
+        },
+        {
+          "text": "What is college fit?",
+          "created": "2017-03-28T01:31:48.982Z",
+          "updated": "2017-03-28T01:31:48.982Z"
+        },
+        {
+          "text": "What types of schools are there?",
+          "created": "2017-03-28T01:30:55.869Z",
+          "updated": "2017-03-28T01:30:55.869Z"
+        }
+      ],
+      "description": null
     }
   ],
   "updated": [
-    "2017-04-03T22:51:14.714Z",
-    "2017-03-31T20:57:09.382Z"
+    "2017-03-31T20:57:09.382Z",
+    "2017-04-03T22:51:14.714Z"
   ],
   "entities": [
+    {
+      "type": null,
+      "entity": "affirmative",
+      "source": null,
+      "values": [
+        {
+          "value": "affirmative",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "all right",
+            "ok",
+            "okay",
+            "ya",
+            "yeppers",
+            "yes",
+            "you know it",
+            "yup"
+          ]
+        }
+      ],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "campus",
+      "source": null,
+      "values": [
+        {
+          "value": "rural",
+          "created": "2017-03-31T20:55:53.496Z",
+          "updated": "2017-03-31T20:56:11.167Z",
+          "metadata": null,
+          "synonyms": [
+            "country",
+            "Rural",
+            "small town",
+            "town"
+          ]
+        },
+        {
+          "value": "suburban",
+          "created": "2017-03-31T20:55:53.496Z",
+          "updated": "2017-03-31T20:55:53.496Z",
+          "metadata": null,
+          "synonyms": [
+            "residential",
+            "residential area",
+            "small cities",
+            "small city",
+            "Suburban",
+            "suburbs"
+          ]
+        },
+        {
+          "value": "urban",
+          "created": "2017-03-31T20:55:53.496Z",
+          "updated": "2017-03-31T20:55:53.496Z",
+          "metadata": null,
+          "synonyms": [
+            "city",
+            "Urban"
+          ]
+        }
+      ],
+      "created": "2017-03-31T20:55:53.496Z",
+      "updated": "2017-03-31T20:56:11.167Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "funding",
+      "source": null,
+      "values": [
+        {
+          "value": "private",
+          "created": "2017-03-31T20:57:09.382Z",
+          "updated": "2017-03-31T20:57:09.382Z",
+          "metadata": null,
+          "synonyms": [
+            "Private"
+          ]
+        },
+        {
+          "value": "public",
+          "created": "2017-03-31T20:57:09.382Z",
+          "updated": "2017-03-31T20:57:09.382Z",
+          "metadata": null,
+          "synonyms": [
+            "Public"
+          ]
+        }
+      ],
+      "created": "2017-03-31T20:57:09.382Z",
+      "updated": "2017-03-31T20:57:09.382Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "schoolYear",
+      "source": null,
+      "values": [
+        {
+          "value": "10",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "10th",
+            "sophmore",
+            "sophomore",
+            "ten",
+            "tenth"
+          ]
+        },
+        {
+          "value": "11",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "11th",
+            "eleven",
+            "eleventh",
+            "jr",
+            "junior"
+          ]
+        },
+        {
+          "value": "12",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "12th",
+            "senior",
+            "sr",
+            "twelfth",
+            "twelve"
+          ]
+        },
+        {
+          "value": "9",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "9th",
+            "freshman",
+            "nine",
+            "ninth"
+          ]
+        }
+      ],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-currency",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-date",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-number",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-percentage",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-time",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "test",
+      "source": null,
+      "values": [
+        {
+          "value": "ACT",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "A.C.T.",
+            "American College Testing"
+          ]
+        },
+        {
+          "value": "Both",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "both"
+          ]
+        },
+        {
+          "value": "SAT",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "S.A.T.",
+            "SAT1",
+            "SAT 1",
+            "SAT2",
+            "SAT 2",
+            "Scholastic Aptitude Test"
+          ]
+        }
+      ],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
     {
       "type": null,
       "entity": "1BuildingLists",
@@ -1804,265 +2063,6 @@
       "updated": "2017-03-28T00:57:37.016Z",
       "open_list": null,
       "description": null
-    },
-    {
-      "type": null,
-      "entity": "affirmative",
-      "source": null,
-      "values": [
-        {
-          "value": "affirmative",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "all right",
-            "ok",
-            "okay",
-            "ya",
-            "yeppers",
-            "yes",
-            "you know it",
-            "yup"
-          ]
-        }
-      ],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "campus",
-      "source": null,
-      "values": [
-        {
-          "value": "rural",
-          "created": "2017-03-31T20:55:53.496Z",
-          "updated": "2017-03-31T20:56:11.167Z",
-          "metadata": null,
-          "synonyms": [
-            "country",
-            "Rural",
-            "small town",
-            "town"
-          ]
-        },
-        {
-          "value": "suburban",
-          "created": "2017-03-31T20:55:53.496Z",
-          "updated": "2017-03-31T20:55:53.496Z",
-          "metadata": null,
-          "synonyms": [
-            "residential",
-            "residential area",
-            "small cities",
-            "small city",
-            "Suburban",
-            "suburbs"
-          ]
-        },
-        {
-          "value": "urban",
-          "created": "2017-03-31T20:55:53.496Z",
-          "updated": "2017-03-31T20:55:53.496Z",
-          "metadata": null,
-          "synonyms": [
-            "city",
-            "Urban"
-          ]
-        }
-      ],
-      "created": "2017-03-31T20:55:53.496Z",
-      "updated": "2017-03-31T20:56:11.167Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "funding",
-      "source": null,
-      "values": [
-        {
-          "value": "private",
-          "created": "2017-03-31T20:57:09.382Z",
-          "updated": "2017-03-31T20:57:09.382Z",
-          "metadata": null,
-          "synonyms": [
-            "Private"
-          ]
-        },
-        {
-          "value": "public",
-          "created": "2017-03-31T20:57:09.382Z",
-          "updated": "2017-03-31T20:57:09.382Z",
-          "metadata": null,
-          "synonyms": [
-            "Public"
-          ]
-        }
-      ],
-      "created": "2017-03-31T20:57:09.382Z",
-      "updated": "2017-03-31T20:57:09.382Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "schoolYear",
-      "source": null,
-      "values": [
-        {
-          "value": "10",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "10th",
-            "sophmore",
-            "sophomore",
-            "ten",
-            "tenth"
-          ]
-        },
-        {
-          "value": "11",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "11th",
-            "eleven",
-            "eleventh",
-            "jr",
-            "junior"
-          ]
-        },
-        {
-          "value": "12",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "12th",
-            "senior",
-            "sr",
-            "twelfth",
-            "twelve"
-          ]
-        },
-        {
-          "value": "9",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "9th",
-            "freshman",
-            "nine",
-            "ninth"
-          ]
-        }
-      ],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "sys-currency",
-      "source": "system.entities",
-      "values": [],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "sys-date",
-      "source": "system.entities",
-      "values": [],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "sys-number",
-      "source": "system.entities",
-      "values": [],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "sys-percentage",
-      "source": "system.entities",
-      "values": [],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "sys-time",
-      "source": "system.entities",
-      "values": [],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
-    },
-    {
-      "type": null,
-      "entity": "test",
-      "source": null,
-      "values": [
-        {
-          "value": "ACT",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "A.C.T.",
-            "American College Testing"
-          ]
-        },
-        {
-          "value": "Both",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "both"
-          ]
-        },
-        {
-          "value": "SAT",
-          "created": "2017-03-31T16:38:08.940Z",
-          "updated": "2017-03-31T16:38:08.940Z",
-          "metadata": null,
-          "synonyms": [
-            "S.A.T.",
-            "SAT1",
-            "SAT 1",
-            "SAT2",
-            "SAT 2",
-            "Scholastic Aptitude Test"
-          ]
-        }
-      ],
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "open_list": null,
-      "description": null
     }
   ],
   "language": [
@@ -2074,10 +2074,532 @@
     null
   ],
   "description": [
-    null,
-    "Exported to wincart @ 12:57PM EST 3.29.17"
+    "Exported to wincart @ 12:57PM EST 3.29.17",
+    null
   ],
   "dialog_nodes": [
+    {
+      "go_to": null,
+      "output": [],
+      "parent": null,
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "Anything Else",
+      "previous_sibling": "Continue Prompt"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "<? $continuePrompt ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "Continue Prompt",
+        "showContinue": true,
+        "completionPct": 0
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "$showContinue",
+      "description": null,
+      "dialog_node": "Continue Prompt",
+      "previous_sibling": "College Cost"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Despite all the news stories about rising college prices, a college education is more affordable than most people believe. There are many colleges that provide an excellent educational experience at a price you can manage. Public college prices are much lower than you might expect."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "College Cost",
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "#collegeCost",
+      "description": null,
+      "dialog_node": "College Cost",
+      "previous_sibling": "Test - SAT Questions"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Do you have a particular major in mind (\"I don't know\" is okay)?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Grades",
+      "context": {
+        "user": {
+          "major": "<? input.text ?>"
+        },
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "input.text != ''",
+      "description": null,
+      "dialog_node": "Major Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Freshman should start here..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:9",
+      "description": null,
+      "dialog_node": "Grade 9",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Great, what was your composite ACT score?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Test Prompt",
+      "context": {
+        "user": {
+          "test": "@test"
+        },
+        "completionPct": 75
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@test:ACT",
+      "description": null,
+      "dialog_node": "ACT Score Prompt",
+      "previous_sibling": "SAT Date"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Have you taken the SAT, ACT or both?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Zip Code Prompt",
+      "context": {
+        "user": {
+          "zip": "<? input.text ?>"
+        },
+        "completionPct": 50
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "input.text.matches('^[0-9]{5}(?:-[0-9]{4})?$')",
+      "description": null,
+      "dialog_node": "Test Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Okay, let's continue..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Continue Prompt",
+      "context": {
+        "completionPct": 100,
+        "previousThread": true
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@affirmative:affirmative",
+      "description": null,
+      "dialog_node": "node_13_1490811969144",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Okay.  When did you take the SAT?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Test Prompt",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@test:Both",
+      "description": null,
+      "dialog_node": "Both",
+      "previous_sibling": "ACT Score Prompt"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "SAT scores are available on the CollegeBoard website, go to https:\/\/studentscores.collegeboard.org\/home."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "Test Score",
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "#testScore && !$showContinue",
+      "description": null,
+      "dialog_node": "Test - SAT Questions",
+      "previous_sibling": "College Search"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Sophomores should start with these resources..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:10",
+      "description": null,
+      "dialog_node": "Grade 10",
+      "previous_sibling": "Grade 9"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Thank you!  Searching..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Major Prompt",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "input.text != ''",
+      "description": null,
+      "dialog_node": "Do Search",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What grade are you currently in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "College Search",
+        "completionPct": 1,
+        "continuePrompt": "Would you like to continue with your college search?"
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "#collegeSearch",
+      "description": null,
+      "dialog_node": "College Search",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What is your 5-digit zip code?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Grade 12",
+      "context": {
+        "completionPct": 25
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "",
+      "description": null,
+      "dialog_node": "Zip Code Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What letter grade do you most often receive?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "SAT Score Prompt",
+      "context": {
+        "user": {
+          "grades": "<? input.text ?>"
+        },
+        "completionPct": 82
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@sys-number",
+      "description": null,
+      "dialog_node": "Grades",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What was your total SAT score?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "SAT Date",
+      "context": {
+        "user": {
+          "satScore": "<? input.text ?>"
+        },
+        "completionPct": 75
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@sys-date",
+      "description": null,
+      "dialog_node": "SAT Score Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "When did you take the SAT?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Test Prompt",
+      "context": {
+        "user": {
+          "satDate": "<? input.text ?>"
+        },
+        "completionPct": 62
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@test:SAT",
+      "description": null,
+      "dialog_node": "SAT Date",
+      "previous_sibling": null
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "College Search"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a grade 9-12."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "!@schoolYear",
+      "description": null,
+      "dialog_node": "Invalid Grade",
+      "previous_sibling": "Grade 12"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "SAT Date"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a valid date."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "SAT Date",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "!@sys-date",
+      "description": null,
+      "dialog_node": "Invalid Date",
+      "previous_sibling": "SAT Score Prompt"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Zip Code Prompt"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Okay, you're a junior."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 10
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:11",
+      "description": null,
+      "dialog_node": "Grade 11",
+      "previous_sibling": "Grade 10"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Zip Code Prompt"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Okay, you're a senior."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 10
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:12",
+      "description": null,
+      "dialog_node": "Grade 12",
+      "previous_sibling": "Grade 11"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Zip Code Prompt"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a valid zip code (ex. 10101)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Zip Code Prompt",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "!input.text.matches('^[0-9]{5}(?:-[0-9]{4})?$') && (intents[0].confidence * 10) < 7",
+      "description": null,
+      "dialog_node": "Invalid Zip Code",
+      "previous_sibling": "Test Prompt"
+    },
     {
       "go_to": null,
       "output": {
@@ -3032,533 +3554,7 @@
       "description": null,
       "dialog_node": "node_11_1490668111318",
       "previous_sibling": "GeneralAffordability"
-    },
-    {
-      "go_to": null,
-      "output": [],
-      "parent": null,
-      "context": null,
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "anything_else",
-      "description": null,
-      "dialog_node": "Anything Else",
-      "previous_sibling": "Continue Prompt"
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "<? $continuePrompt ?>"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": null,
-      "context": {
-        "thread": "Continue Prompt",
-        "showContinue": true,
-        "completionPct": 0
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "$showContinue",
-      "description": null,
-      "dialog_node": "Continue Prompt",
-      "previous_sibling": "College Cost"
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Despite all the news stories about rising college prices, a college education is more affordable than most people believe. There are many colleges that provide an excellent educational experience at a price you can manage. Public college prices are much lower than you might expect."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": null,
-      "context": {
-        "thread": "College Cost",
-        "completionPct": 100
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "#collegeCost",
-      "description": null,
-      "dialog_node": "College Cost",
-      "previous_sibling": "Test - SAT Questions"
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Do you have a particular major in mind (\"I don't know\" is okay)?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Grades",
-      "context": {
-        "user": {
-          "major": "<? input.text ?>"
-        },
-        "completionPct": 100
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "input.text != ''",
-      "description": null,
-      "dialog_node": "Major Prompt",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Freshman should start here..."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "College Search",
-      "context": {
-        "user": {
-          "schoolYear": "@schoolYear"
-        },
-        "completionPct": 100
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@schoolYear:9",
-      "description": null,
-      "dialog_node": "Grade 9",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Great, what was your composite ACT score?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Test Prompt",
-      "context": {
-        "user": {
-          "test": "@test"
-        },
-        "completionPct": 75
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@test:ACT",
-      "description": null,
-      "dialog_node": "ACT Score Prompt",
-      "previous_sibling": "SAT Date"
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Have you taken the SAT, ACT or both?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Zip Code Prompt",
-      "context": {
-        "user": {
-          "zip": "<? input.text ?>"
-        },
-        "completionPct": 50
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "input.text.matches('^[0-9]{5}(?:-[0-9]{4})?$')",
-      "description": null,
-      "dialog_node": "Test Prompt",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Okay, let's continue..."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Continue Prompt",
-      "context": {
-        "completionPct": 100,
-        "previousThread": true
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@affirmative:affirmative",
-      "description": null,
-      "dialog_node": "node_13_1490811969144",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Okay.  When did you take the SAT?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Test Prompt",
-      "context": null,
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@test:Both",
-      "description": null,
-      "dialog_node": "Both",
-      "previous_sibling": "ACT Score Prompt"
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "SAT scores are available on the CollegeBoard website, go to https:\/\/studentscores.collegeboard.org\/home."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": null,
-      "context": {
-        "thread": "Test Score",
-        "completionPct": 100
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "#testScore && !$showContinue",
-      "description": null,
-      "dialog_node": "Test - SAT Questions",
-      "previous_sibling": "College Search"
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Sophomores should start with these resources..."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "College Search",
-      "context": {
-        "user": {
-          "schoolYear": "@schoolYear"
-        },
-        "completionPct": 100
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@schoolYear:10",
-      "description": null,
-      "dialog_node": "Grade 10",
-      "previous_sibling": "Grade 9"
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "Thank you!  Searching..."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Major Prompt",
-      "context": null,
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "input.text != ''",
-      "description": null,
-      "dialog_node": "Do Search",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "What grade are you currently in?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": null,
-      "context": {
-        "thread": "College Search",
-        "completionPct": 1,
-        "continuePrompt": "Would you like to continue with your college search?"
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "#collegeSearch",
-      "description": null,
-      "dialog_node": "College Search",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "What is your 5-digit zip code?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Grade 12",
-      "context": {
-        "completionPct": 25
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "",
-      "description": null,
-      "dialog_node": "Zip Code Prompt",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "What letter grade do you most often receive?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "SAT Score Prompt",
-      "context": {
-        "user": {
-          "grades": "<? input.text ?>"
-        },
-        "completionPct": 82
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@sys-number",
-      "description": null,
-      "dialog_node": "Grades",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "What was your total SAT score?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "SAT Date",
-      "context": {
-        "user": {
-          "satScore": "<? input.text ?>"
-        },
-        "completionPct": 75
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@sys-date",
-      "description": null,
-      "dialog_node": "SAT Score Prompt",
-      "previous_sibling": null
-    },
-    {
-      "go_to": null,
-      "output": {
-        "text": {
-          "values": [
-            "When did you take the SAT?"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Test Prompt",
-      "context": {
-        "user": {
-          "satDate": "<? input.text ?>"
-        },
-        "completionPct": 62
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@test:SAT",
-      "description": null,
-      "dialog_node": "SAT Date",
-      "previous_sibling": null
-    },
-    {
-      "go_to": {
-        "return": null,
-        "selector": "body",
-        "dialog_node": "College Search"
-      },
-      "output": {
-        "text": {
-          "values": [
-            "Please enter a grade 9-12."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "College Search",
-      "context": null,
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "!@schoolYear",
-      "description": null,
-      "dialog_node": "Invalid Grade",
-      "previous_sibling": "Grade 12"
-    },
-    {
-      "go_to": {
-        "return": null,
-        "selector": "body",
-        "dialog_node": "SAT Date"
-      },
-      "output": {
-        "text": {
-          "values": [
-            "Please enter a valid date."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "SAT Date",
-      "context": null,
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "!@sys-date",
-      "description": null,
-      "dialog_node": "Invalid Date",
-      "previous_sibling": "SAT Score Prompt"
-    },
-    {
-      "go_to": {
-        "return": null,
-        "selector": "body",
-        "dialog_node": "Zip Code Prompt"
-      },
-      "output": {
-        "text": {
-          "values": [
-            "Okay, you're a junior."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "College Search",
-      "context": {
-        "user": {
-          "schoolYear": "@schoolYear"
-        },
-        "completionPct": 10
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@schoolYear:11",
-      "description": null,
-      "dialog_node": "Grade 11",
-      "previous_sibling": "Grade 10"
-    },
-    {
-      "go_to": {
-        "return": null,
-        "selector": "body",
-        "dialog_node": "Zip Code Prompt"
-      },
-      "output": {
-        "text": {
-          "values": [
-            "Okay, you're a senior."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "College Search",
-      "context": {
-        "user": {
-          "schoolYear": "@schoolYear"
-        },
-        "completionPct": 10
-      },
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "@schoolYear:12",
-      "description": null,
-      "dialog_node": "Grade 12",
-      "previous_sibling": "Grade 11"
-    },
-    {
-      "go_to": {
-        "return": null,
-        "selector": "body",
-        "dialog_node": "Zip Code Prompt"
-      },
-      "output": {
-        "text": {
-          "values": [
-            "Please enter a valid zip code (ex. 10101)."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "Zip Code Prompt",
-      "context": null,
-      "created": "2017-03-31T16:38:08.940Z",
-      "updated": "2017-03-31T16:38:08.940Z",
-      "metadata": null,
-      "conditions": "!input.text.matches('^[0-9]{5}(?:-[0-9]{4})?$') && (intents[0].confidence * 10) < 7",
-      "description": null,
-      "dialog_node": "Invalid Zip Code",
-      "previous_sibling": "Test Prompt"
     }
   ],
-  "workspace_id": [
-    "77fddb7e-8647-457a-9b72-9400322f3465",
-    "9026edd0-71e6-43d9-9f42-93062b4ae4da"
-  ],
-  "counterexamples": []
+  "workspace_id": "3a9de2d5-3311-4a2e-ab3c-a95ad74618db",
 }
