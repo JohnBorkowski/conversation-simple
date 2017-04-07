@@ -1,6 +1,6 @@
 {
-  "name": "JKCF-Test",
-  "created": "2017-03-14T01:42:11.690Z",
+  "name": "JKCF Prototype",
+  "created": "2017-03-31T16:38:08.940Z",
   "intents": [
     {
       "intent": "6LearnMore",
@@ -114,7 +114,7 @@
           "updated": "2017-03-29T19:08:40.199Z"
         },
         {
-          "text": "If I don’t know what I want to major in, does it make sense to go to college?",
+          "text": "If I dont know what I want to major in, does it make sense to go to college?",
           "created": "2017-03-29T19:09:28.479Z",
           "updated": "2017-03-29T19:09:28.479Z"
         },
@@ -129,7 +129,7 @@
           "updated": "2017-03-29T19:09:06.087Z"
         },
         {
-          "text": "What if I’m still not sure what I want to do?",
+          "text": "What if Im still not sure what I want to do?",
           "created": "2017-03-29T19:09:20.321Z",
           "updated": "2017-03-29T19:09:20.321Z"
         },
@@ -343,9 +343,550 @@
         }
       ],
       "description": null
+    },
+    {
+      "intent": "campusLife",
+      "created": "2017-03-31T17:48:35.596Z",
+      "updated": "2017-03-31T17:48:35.596Z",
+      "examples": [
+        {
+          "text": "How do I find out about campus life?",
+          "created": "2017-03-31T17:48:35.596Z",
+          "updated": "2017-03-31T17:48:35.596Z"
+        },
+        {
+          "text": "How do I learn about campus life?",
+          "created": "2017-03-31T17:48:35.596Z",
+          "updated": "2017-03-31T17:48:35.596Z"
+        },
+        {
+          "text": "How do I learn about life at school?",
+          "created": "2017-03-31T17:48:35.596Z",
+          "updated": "2017-03-31T17:48:35.596Z"
+        },
+        {
+          "text": "How do I learn about life on campus?",
+          "created": "2017-03-31T17:48:35.596Z",
+          "updated": "2017-03-31T17:48:35.596Z"
+        },
+        {
+          "text": "What's everday life like at school?",
+          "created": "2017-03-31T17:48:35.596Z",
+          "updated": "2017-03-31T17:48:35.596Z"
+        },
+        {
+          "text": "What's every day life like at college?",
+          "created": "2017-03-31T17:48:35.596Z",
+          "updated": "2017-03-31T17:48:35.596Z"
+        },
+        {
+          "text": "What's life like on campus?",
+          "created": "2017-03-31T17:48:35.596Z",
+          "updated": "2017-03-31T17:48:35.596Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "campusType",
+      "created": "2017-03-31T20:18:42.200Z",
+      "updated": "2017-03-31T20:18:42.200Z",
+      "examples": [
+        {
+          "text": "What are characteristics of a rural campus?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What are different types of campuses?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "what are schools like in the country?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What are the qualities of an urban college?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What can I do at a school in the suburbs?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What kind of campuses are in small cities?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What kind of opportunities are there at a city school?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What's an urban campus?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What's the difference between suburban and urban campuses?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What's the difference between suburban, urban, and rural colleges?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "What's there to do at a city school?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        },
+        {
+          "text": "Why should I go to school in a big city versus small town?",
+          "created": "2017-03-31T20:18:42.200Z",
+          "updated": "2017-03-31T20:18:42.200Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "collegeCost",
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "examples": [
+        {
+          "text": "Can I afford to go to college?",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "do i have enough money to go to university",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "i hear college is really expensive",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "isn't college just for rich people",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "my family says college isn't affordable",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "collegeDecision",
+      "created": "2017-03-31T18:03:02.591Z",
+      "updated": "2017-03-31T18:03:02.591Z",
+      "examples": [
+        {
+          "text": "How do I decide what I want in a college?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "How do I figure out what I want in a school?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "How do I know what I want in a school?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "How do I pick a school?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "Ultimately how do I choose?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "What are important things to look for in a college?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "What do I think about when deciding where to go?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "What should I focus on when I decide on a school?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        },
+        {
+          "text": "What should I look for when deciding where to apply?",
+          "created": "2017-03-31T18:03:02.591Z",
+          "updated": "2017-03-31T18:03:02.591Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "collegeFit",
+      "created": "2017-03-31T20:33:06.919Z",
+      "updated": "2017-03-31T20:33:06.919Z",
+      "examples": [
+        {
+          "text": "How do I figure out if a school fits me?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        },
+        {
+          "text": "How do I know a college is the right fit for me?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        },
+        {
+          "text": "How do I know if this is the right place for me?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        },
+        {
+          "text": "How do I know this school is right for me?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        },
+        {
+          "text": "What does \"fit\" mean?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        },
+        {
+          "text": "What is college fit?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        },
+        {
+          "text": "What's fit?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        },
+        {
+          "text": "Why is college 'fit' important?",
+          "created": "2017-03-31T20:33:06.919Z",
+          "updated": "2017-03-31T20:33:06.919Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "collegeMajors",
+      "created": "2017-03-31T17:51:42.119Z",
+      "updated": "2017-03-31T17:51:42.119Z",
+      "examples": [
+        {
+          "text": "Do I need to know my major before I go to college?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "How do I decide what to study?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "How do I figure out what to concentrate in?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "How do I know what I should focus on in college?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "how do I know what I should major in?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "Is it normal to be Undecided?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "Should I go to college if I don't know what to major in?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "What are college majors?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "What if I'm not sure what I should major in at college?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        },
+        {
+          "text": "What should I major in?",
+          "created": "2017-03-31T17:51:42.119Z",
+          "updated": "2017-03-31T17:51:42.119Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "collegeSearch",
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "examples": [
+        {
+          "text": "college search",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "How do I pick a school",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "I can't decide which university to attend",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "I need help picking a college",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "What school should I go to",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "Where should I go to school",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "liberalArts",
+      "created": "2017-03-31T19:49:47.453Z",
+      "updated": "2017-03-31T19:49:47.453Z",
+      "examples": [
+        {
+          "text": "What does it mean to be liberal arts?",
+          "created": "2017-03-31T19:49:47.453Z",
+          "updated": "2017-03-31T19:49:47.453Z"
+        },
+        {
+          "text": "what does \"liberal arts\" mean?",
+          "created": "2017-03-31T19:49:47.453Z",
+          "updated": "2017-03-31T19:49:47.453Z"
+        },
+        {
+          "text": "What is a degree in liberal arts?",
+          "created": "2017-03-31T19:49:47.453Z",
+          "updated": "2017-03-31T19:49:47.453Z"
+        },
+        {
+          "text": "what kind of courses are offered at Liberal Arts colleges?",
+          "created": "2017-03-31T19:49:47.453Z",
+          "updated": "2017-03-31T19:49:47.453Z"
+        },
+        {
+          "text": "What's a liberal arts school?",
+          "created": "2017-03-31T19:49:47.453Z",
+          "updated": "2017-03-31T19:49:47.453Z"
+        },
+        {
+          "text": "What's good about liberal arts colleges?",
+          "created": "2017-03-31T19:49:47.453Z",
+          "updated": "2017-03-31T19:49:47.453Z"
+        },
+        {
+          "text": "What's Liberal Arts?",
+          "created": "2017-03-31T19:49:47.453Z",
+          "updated": "2017-03-31T19:49:47.453Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "privatePublic",
+      "created": "2017-03-31T20:25:42.800Z",
+      "updated": "2017-03-31T20:25:42.800Z",
+      "examples": [
+        {
+          "text": "How are private schools funded?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "How do public schools get money?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "Is a public school cheaper than private?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "what are the benefits of a public university?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "What are the merits of a private college?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "what does it mean to be a public university?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "What kind of colleges cost the most?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "What's a private school?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "What schools are the most expensive?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        },
+        {
+          "text": "What's the difference between a private and public college?",
+          "created": "2017-03-31T20:25:42.800Z",
+          "updated": "2017-03-31T20:25:42.800Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "schoolSize",
+      "created": "2017-03-31T19:44:20.764Z",
+      "updated": "2017-03-31T19:44:20.764Z",
+      "examples": [
+        {
+          "text": "Does college size make a difference?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "Does school size matter?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "Should I go to a big school or a small school?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "What are characteristics of a smaller school?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "what are the tradeoffs between bigger and smaller schools?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "what are things to consider about a big versus small school?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "What's different about a big school?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "What's different between a small vs large college?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "What's the different between a larger school and a smaller school?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "Why should I go to a big school instead of a small school?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        },
+        {
+          "text": "Will I have a different experience if I go to a larger college?",
+          "created": "2017-03-31T19:44:20.764Z",
+          "updated": "2017-03-31T19:44:20.764Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "testScore",
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "examples": [
+        {
+          "text": "How do I know what my score was",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "I can't remember what I got on the ACT",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "I don't know my SAT score",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "what does composite score mean",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        },
+        {
+          "text": "where can I find my sat score",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z"
+        }
+      ],
+      "description": null
     }
   ],
-  "updated": "2017-04-03T22:51:14.714Z",
+  "updated": [
+    "2017-04-03T22:51:14.714Z",
+    "2017-03-31T20:57:09.382Z"
+  ],
   "entities": [
     {
       "type": null,
@@ -1263,11 +1804,279 @@
       "updated": "2017-03-28T00:57:37.016Z",
       "open_list": null,
       "description": null
+    },
+    {
+      "type": null,
+      "entity": "affirmative",
+      "source": null,
+      "values": [
+        {
+          "value": "affirmative",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "all right",
+            "ok",
+            "okay",
+            "ya",
+            "yeppers",
+            "yes",
+            "you know it",
+            "yup"
+          ]
+        }
+      ],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "campus",
+      "source": null,
+      "values": [
+        {
+          "value": "rural",
+          "created": "2017-03-31T20:55:53.496Z",
+          "updated": "2017-03-31T20:56:11.167Z",
+          "metadata": null,
+          "synonyms": [
+            "country",
+            "Rural",
+            "small town",
+            "town"
+          ]
+        },
+        {
+          "value": "suburban",
+          "created": "2017-03-31T20:55:53.496Z",
+          "updated": "2017-03-31T20:55:53.496Z",
+          "metadata": null,
+          "synonyms": [
+            "residential",
+            "residential area",
+            "small cities",
+            "small city",
+            "Suburban",
+            "suburbs"
+          ]
+        },
+        {
+          "value": "urban",
+          "created": "2017-03-31T20:55:53.496Z",
+          "updated": "2017-03-31T20:55:53.496Z",
+          "metadata": null,
+          "synonyms": [
+            "city",
+            "Urban"
+          ]
+        }
+      ],
+      "created": "2017-03-31T20:55:53.496Z",
+      "updated": "2017-03-31T20:56:11.167Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "funding",
+      "source": null,
+      "values": [
+        {
+          "value": "private",
+          "created": "2017-03-31T20:57:09.382Z",
+          "updated": "2017-03-31T20:57:09.382Z",
+          "metadata": null,
+          "synonyms": [
+            "Private"
+          ]
+        },
+        {
+          "value": "public",
+          "created": "2017-03-31T20:57:09.382Z",
+          "updated": "2017-03-31T20:57:09.382Z",
+          "metadata": null,
+          "synonyms": [
+            "Public"
+          ]
+        }
+      ],
+      "created": "2017-03-31T20:57:09.382Z",
+      "updated": "2017-03-31T20:57:09.382Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "schoolYear",
+      "source": null,
+      "values": [
+        {
+          "value": "10",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "10th",
+            "sophmore",
+            "sophomore",
+            "ten",
+            "tenth"
+          ]
+        },
+        {
+          "value": "11",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "11th",
+            "eleven",
+            "eleventh",
+            "jr",
+            "junior"
+          ]
+        },
+        {
+          "value": "12",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "12th",
+            "senior",
+            "sr",
+            "twelfth",
+            "twelve"
+          ]
+        },
+        {
+          "value": "9",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "9th",
+            "freshman",
+            "nine",
+            "ninth"
+          ]
+        }
+      ],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-currency",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-date",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-number",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-percentage",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-time",
+      "source": "system.entities",
+      "values": [],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "test",
+      "source": null,
+      "values": [
+        {
+          "value": "ACT",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "A.C.T.",
+            "American College Testing"
+          ]
+        },
+        {
+          "value": "Both",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "both"
+          ]
+        },
+        {
+          "value": "SAT",
+          "created": "2017-03-31T16:38:08.940Z",
+          "updated": "2017-03-31T16:38:08.940Z",
+          "metadata": null,
+          "synonyms": [
+            "S.A.T.",
+            "SAT1",
+            "SAT 1",
+            "SAT2",
+            "SAT 2",
+            "Scholastic Aptitude Test"
+          ]
+        }
+      ],
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "open_list": null,
+      "description": null
     }
   ],
-  "language": "en",
-  "metadata": null,
-  "description": null,
+  "language": [
+    "en",
+    "en"
+  ],
+  "metadata": [
+    null,
+    null
+  ],
+  "description": [
+    null,
+    "Exported to wincart @ 12:57PM EST 3.29.17"
+  ],
   "dialog_nodes": [
     {
       "go_to": null,
@@ -1294,7 +2103,7 @@
       "output": {
         "text": {
           "values": [
-            "Although the cost of college is certainly an important factor, you should not concentrate on it until later in your college-selection process. Instead, focus on finding a college that is a good fit — one that meets your academic, career and personal needs. In some cases, you might have a better chance of receiving aid from a private college and end up paying a lower total price than at a public college. Private colleges often offer more financial aid to attract students from every income level."
+            "Although the cost of college is certainly an important factor, you should not concentrate on it until later in your college-selection process. Instead, focus on finding a college that is a good fit  one that meets your academic, career and personal needs. In some cases, you might have a better chance of receiving aid from a private college and end up paying a lower total price than at a public college. Private colleges often offer more financial aid to attract students from every income level."
           ],
           "selection_policy": "sequential"
         }
@@ -1314,7 +2123,7 @@
       "output": {
         "text": {
           "values": [
-            "Ask yourself what’s important to you, where you want to be and who you want to become. Then you can figure out what types of colleges will allow you to reach your goals. Here are some aspects to consider: Size; Location; Distance from home; Available majors and classes; Housing options; Makeup of the student body; Available extracurricular activities; Campus atmosphere; Which of these aspects are things you feel you must have to be comfortable at a college? Which things are you flexible on? Also, think about what you want to accomplish in college. Do you want to train for a specific job or get a wide-ranging education? If you have a major in mind, are the colleges you’re considering strong in that area?"
+            "Ask yourself whats important to you, where you want to be and who you want to become. Then you can figure out what types of colleges will allow you to reach your goals. Here are some aspects to consider: Size; Location; Distance from home; Available majors and classes; Housing options; Makeup of the student body; Available extracurricular activities; Campus atmosphere; Which of these aspects are things you feel you must have to be comfortable at a college? Which things are you flexible on? Also, think about what you want to accomplish in college. Do you want to train for a specific job or get a wide-ranging education? If you have a major in mind, are the colleges youre considering strong in that area?"
           ],
           "selection_policy": "sequential"
         }
@@ -1434,7 +2243,7 @@
       "output": {
         "text": {
           "values": [
-            "College has many benefits. For example, people who graduate from college earn more money and are more likely to hold a job than those who don’t graduate from college. In 2011, people with a bachelor’s degree who worked full-time earned $21,100 more, on average, than full-time workers with only a high school diploma. Learn more about how college education pays."
+            "College has many benefits. For example, people who graduate from college earn more money and are more likely to hold a job than those who dont graduate from college. In 2011, people with a bachelors degree who worked full-time earned $21,100 more, on average, than full-time workers with only a high school diploma. Learn more about how college education pays."
           ],
           "selection_policy": "sequential"
         }
@@ -1454,7 +2263,7 @@
       "output": {
         "text": {
           "values": [
-            "Community colleges and junior colleges award associate degrees once students have successfully completed a two-year course of study. Some two-year colleges grant diplomas or certificates of completion to students who have met course requirements and are ready to practice in their career fields, such as nursing. Community and junior colleges are similar, except that a junior college is usually a private school. Because costs are often lower and admission is more open at two-year colleges, many students begin their college careers here. If you plan to start at a community or junior college and later transfer to a four-year college, you should make sure your community college courses will transfer to those colleges you are interested in and that your courses will count toward your bachelor’s degree. Many community colleges have “articulation agreements” with four-year colleges under which the course work taken at the community college transfers into the four-year degree program. Be sure to ask about the types of articulation agreements the community college has, with whom, and for what programs of study."
+            "Community colleges and junior colleges award associate degrees once students have successfully completed a two-year course of study. Some two-year colleges grant diplomas or certificates of completion to students who have met course requirements and are ready to practice in their career fields, such as nursing. Community and junior colleges are similar, except that a junior college is usually a private school. Because costs are often lower and admission is more open at two-year colleges, many students begin their college careers here. If you plan to start at a community or junior college and later transfer to a four-year college, you should make sure your community college courses will transfer to those colleges you are interested in and that your courses will count toward your bachelors degree. Many community colleges have articulation agreements with four-year colleges under which the course work taken at the community college transfers into the four-year degree program. Be sure to ask about the types of articulation agreements the community college has, with whom, and for what programs of study."
           ],
           "selection_policy": "sequential"
         }
@@ -1514,7 +2323,7 @@
       "output": {
         "text": {
           "values": [
-            "Encourage your parent(s) to meet with your high school guidance counselor to learn more about the college process. It’s important that your parent(s) know the importance of exploring colleges that are a good fit for you academically, socially, and financially. Talk to your parent(s) about your college process by sharing what colleges you are considering and what factors are important to you. Ask your parent(s) to take you to visit a nearby college and meet with someone from the Office of Admissions or Financial Aid Office. Many colleges have ‘Open Houses’ that your parent(s) can also attend. Talk to your parent(s) about the importance of saving up money to pay for college. Your parent(s) should know that one of the most important things they can do is help you apply for Financial Aid by submitting the FAFSA as early as January 1st of your senior year."
+            "Encourage your parent(s) to meet with your high school guidance counselor to learn more about the college process. Its important that your parent(s) know the importance of exploring colleges that are a good fit for you academically, socially, and financially. Talk to your parent(s) about your college process by sharing what colleges you are considering and what factors are important to you. Ask your parent(s) to take you to visit a nearby college and meet with someone from the Office of Admissions or Financial Aid Office. Many colleges have Open Houses that your parent(s) can also attend. Talk to your parent(s) about the importance of saving up money to pay for college. Your parent(s) should know that one of the most important things they can do is help you apply for Financial Aid by submitting the FAFSA as early as January 1st of your senior year."
           ],
           "selection_policy": "sequential"
         }
@@ -1634,7 +2443,7 @@
       "output": {
         "text": {
           "values": [
-            "If you’re at this point in the process, you’ve probably already looked into things such as location, size and majors offered. Here are some other things to research: Variety of academic programs offered; Special programs, such as study abroad; Clubs and activities on campus; Housing options; Available facilities, such as labs, theaters and gyms; A great way to narrow your list is to start making college visits, if possible. You can also make virtual campus visits."
+            "If youre at this point in the process, youve probably already looked into things such as location, size and majors offered. Here are some other things to research: Variety of academic programs offered; Special programs, such as study abroad; Clubs and activities on campus; Housing options; Available facilities, such as labs, theaters and gyms; A great way to narrow your list is to start making college visits, if possible. You can also make virtual campus visits."
           ],
           "selection_policy": "sequential"
         }
@@ -1694,7 +2503,7 @@
       "output": {
         "text": {
           "values": [
-            "Often, students say that college led them to career paths they never imagined for themselves, or weren't even aware of. So, even if you know what courses you want to study, even if you already have a possible career in mind, stay open to new opportunities. If you’re not completely sure what career path is right for you, college or career school can help you figure it out."
+            "Often, students say that college led them to career paths they never imagined for themselves, or weren't even aware of. So, even if you know what courses you want to study, even if you already have a possible career in mind, stay open to new opportunities. If youre not completely sure what career path is right for you, college or career school can help you figure it out."
           ],
           "selection_policy": "sequential"
         }
@@ -1814,7 +2623,7 @@
       "output": {
         "text": {
           "values": [
-            "Students who attend a four-year college or university typically earn a bachelor’s degree once they have successfully completed a program of study, which usually takes about four years. A college usually offers a four-year bachelor’s degree in the arts (such as English, history, drama) or sciences (such as biology, computer science, engineering). Some colleges also offer advanced degrees, such as master’s or other graduate degrees, after you’ve earned your bachelor’s degree. Universities offer bachelor’s, master’s, and doctorate degrees, and sometimes have professional schools such as a law school or medical school. Universities tend to be larger than colleges, may have larger class sizes, and often focus on scholarly or scientific research."
+            "Students who attend a four-year college or university typically earn a bachelors degree once they have successfully completed a program of study, which usually takes about four years. A college usually offers a four-year bachelors degree in the arts (such as English, history, drama) or sciences (such as biology, computer science, engineering). Some colleges also offer advanced degrees, such as masters or other graduate degrees, after youve earned your bachelors degree. Universities offer bachelors, masters, and doctorate degrees, and sometimes have professional schools such as a law school or medical school. Universities tend to be larger than colleges, may have larger class sizes, and often focus on scholarly or scientific research."
           ],
           "selection_policy": "sequential"
         }
@@ -1834,7 +2643,7 @@
       "output": {
         "text": {
           "values": [
-            "Take a virtual tour. In addition to basic  information—like the size of the campus and the student body—many college websites offer virtual campus tours. Get a closer look at different parts of the campus using interactive maps and other tools."
+            "Take a virtual tour. In addition to basic  informationlike the size of the campus and the student bodymany college websites offer virtual campus tours. Get a closer look at different parts of the campus using interactive maps and other tools."
           ],
           "selection_policy": "sequential"
         }
@@ -1854,7 +2663,7 @@
       "output": {
         "text": {
           "values": [
-            "\"The college search is about finding schools that match your abilities and interests, as well as help you to reach your personal goals.  When considering whether a school “fits” you, think about: size, location, distance from home, programs of study, extracurricular activities, diversity, and student life, among others. When considering fit, ask yourself: How far away do I want to be from home? A car ride, train ride, or plane ride away? (Consider costs for travel home during school vacations.); Do I want a small community where I recognize almost every face as I walk around my college campus (and have people recognize me) or would I rather be in a bigger place where I can be a bit more anonymous?; Do I learn best in larger lectures or do I prefer smaller discussion-based classes?; Does the idea of attending college in a big city excite or frighten me?  How do I feel about living in a more rural or quiet setting?     What top three academic programs would my ideal college offer? What major or minor am I most interested in?; What top three extracurricular activities would the ideal college have for me?; What additional features would the ideal college for me have (e.g. writing center, math center, honor code, learning support center, access to a particular religious community)?; What kinds of people do I like spending time with or want to spend time with in college?  Artsy?  Athletic?  Passionate about helping others?  Studious?  Social?; What have I liked most about high school (consider size, extracurricular offerings, relationships with teachers, etc.)?; What have I liked least about high school (consider size, extracurricular offerings, relationships with teachers, etc.)? Use your answers to guide your college fit exploration.  For example, your answers regarding your high school experience can help you look for colleges that replicate aspects you love and alter those aspects you’d like to change. Researching a variety of schools will help you build a balanced list of schools to which you will ultimately apply.\""
+            "\"The college search is about finding schools that match your abilities and interests, as well as help you to reach your personal goals.  When considering whether a school fits you, think about: size, location, distance from home, programs of study, extracurricular activities, diversity, and student life, among others. When considering fit, ask yourself: How far away do I want to be from home? A car ride, train ride, or plane ride away? (Consider costs for travel home during school vacations.); Do I want a small community where I recognize almost every face as I walk around my college campus (and have people recognize me) or would I rather be in a bigger place where I can be a bit more anonymous?; Do I learn best in larger lectures or do I prefer smaller discussion-based classes?; Does the idea of attending college in a big city excite or frighten me?  How do I feel about living in a more rural or quiet setting?     What top three academic programs would my ideal college offer? What major or minor am I most interested in?; What top three extracurricular activities would the ideal college have for me?; What additional features would the ideal college for me have (e.g. writing center, math center, honor code, learning support center, access to a particular religious community)?; What kinds of people do I like spending time with or want to spend time with in college?  Artsy?  Athletic?  Passionate about helping others?  Studious?  Social?; What have I liked most about high school (consider size, extracurricular offerings, relationships with teachers, etc.)?; What have I liked least about high school (consider size, extracurricular offerings, relationships with teachers, etc.)? Use your answers to guide your college fit exploration.  For example, your answers regarding your high school experience can help you look for colleges that replicate aspects you love and alter those aspects youd like to change. Researching a variety of schools will help you build a balanced list of schools to which you will ultimately apply.\""
           ],
           "selection_policy": "sequential"
         }
@@ -1874,7 +2683,7 @@
       "output": {
         "text": {
           "values": [
-            "The list of colleges you are interested in will evolve greatly during the admissions process, and it is important to proactively research your options. Websites (College Board and College Greenlight), college guidebooks, your high school’s college/career center, and the public library are great sources of information. Explore schools that fit your academic profile (meaning GPA and standardized test scores) as well as your personal and career interests.  Don’t focus too much on cost at the beginning of your search as most selective colleges offer generous financial aid packages. You should look at schools that fall into three categories: Reach Schools — Your GPA and standardized test scores fall at or below the school’s published data on accepted students and/or the acceptance rate is less than 30%.; Target Schools — Your GPA and standardized test scores fit the school’s published data on accepted students and the acceptance rate is around 30% - 60%.; Likely Schools — Your GPA and standardized test scores are at or above the school’s published data on accepted students and the acceptance rate is 60% or higher.; As you conduct your research, you might consider using this Jack Kent Cooke Foundation College Research Worksheet to organize your findings. When you craft your final list of 8-12 colleges to which you will ultimately apply, you should include schools from each category based on the following approximate distribution. Your final list of colleges should include: 2 – 3 Reach Schools; 4 – 5 Target Schools; 2 – 3 Likely Schools"
+            "The list of colleges you are interested in will evolve greatly during the admissions process, and it is important to proactively research your options. Websites (College Board and College Greenlight), college guidebooks, your high schools college\/career center, and the public library are great sources of information. Explore schools that fit your academic profile (meaning GPA and standardized test scores) as well as your personal and career interests.  Dont focus too much on cost at the beginning of your search as most selective colleges offer generous financial aid packages. You should look at schools that fall into three categories: Reach Schools  Your GPA and standardized test scores fall at or below the schools published data on accepted students and\/or the acceptance rate is less than 30%.; Target Schools  Your GPA and standardized test scores fit the schools published data on accepted students and the acceptance rate is around 30% - 60%.; Likely Schools  Your GPA and standardized test scores are at or above the schools published data on accepted students and the acceptance rate is 60% or higher.; As you conduct your research, you might consider using this Jack Kent Cooke Foundation College Research Worksheet to organize your findings. When you craft your final list of 8-12 colleges to which you will ultimately apply, you should include schools from each category based on the following approximate distribution. Your final list of colleges should include: 2  3 Reach Schools; 4  5 Target Schools; 2  3 Likely Schools"
           ],
           "selection_policy": "sequential"
         }
@@ -1914,7 +2723,7 @@
       "output": {
         "text": {
           "values": [
-            "They take into account more than your GPA and test scores. Your character and the personal qualities you can bring to a college are important too. That’s why you need to think about your goals, accomplishments and personal values and figure out how you can best express those in your applications."
+            "They take into account more than your GPA and test scores. Your character and the personal qualities you can bring to a college are important too. Thats why you need to think about your goals, accomplishments and personal values and figure out how you can best express those in your applications."
           ],
           "selection_policy": "sequential"
         }
@@ -1934,7 +2743,7 @@
       "output": {
         "text": {
           "values": [
-            "To learn more about the colleges you're considering, check out college guidebooks and the colleges’ websites. Jot down your questions and get answers by: Talking to your school counselor or teachers; Checking out colleges’ student blogs, if available; Contacting college admission officials; Asking admission officials to recommend current students or recent graduates to talk to; Visiting college campuses, if possible."
+            "To learn more about the colleges you're considering, check out college guidebooks and the colleges websites. Jot down your questions and get answers by: Talking to your school counselor or teachers; Checking out colleges student blogs, if available; Contacting college admission officials; Asking admission officials to recommend current students or recent graduates to talk to; Visiting college campuses, if possible."
           ],
           "selection_policy": "sequential"
         }
@@ -1954,7 +2763,7 @@
       "output": {
         "text": {
           "values": [
-            "\"What is it that makes you unique, and how will you contribute to the life of our campus?” That’s what admission officers want to know, according to Earl Johnson, dean of admission at the University of Tulsa. To gauge what students can bring to their campus, they look for these types of qualities: Leadership; A willingness to take risks; Initiative; A sense of social responsibility; A commitment to service; Special talents or abilities. Overall, colleges want a mix of students to create a rich campus community. They want the class valedictorians, says Marty O’Connell, executive director of Colleges That Change Lives. But they also are looking for “students who are going to be involved in a lot of activities and students who are musicians and students who are athletes and everything in between.”"
+            "\"What is it that makes you unique, and how will you contribute to the life of our campus? Thats what admission officers want to know, according to Earl Johnson, dean of admission at the University of Tulsa. To gauge what students can bring to their campus, they look for these types of qualities: Leadership; A willingness to take risks; Initiative; A sense of social responsibility; A commitment to service; Special talents or abilities. Overall, colleges want a mix of students to create a rich campus community. They want the class valedictorians, says Marty OConnell, executive director of Colleges That Change Lives. But they also are looking for students who are going to be involved in a lot of activities and students who are musicians and students who are athletes and everything in between."
           ],
           "selection_policy": "sequential"
         }
@@ -2014,7 +2823,7 @@
       "output": {
         "text": {
           "values": [
-            "Yes. Colleges have different levels of support for students with learning disabilities.  Each school will have an office designated to working with students with learning differences. You will need to contact that office and provide required documentation including a copy of your IEP or 504 Plan from high school and/or reports from academic and cognitive testing."
+            "Yes. Colleges have different levels of support for students with learning disabilities.  Each school will have an office designated to working with students with learning differences. You will need to contact that office and provide required documentation including a copy of your IEP or 504 Plan from high school and\/or reports from academic and cognitive testing."
           ],
           "selection_policy": "sequential"
         }
@@ -2034,7 +2843,7 @@
       "output": {
         "text": {
           "values": [
-            "Yes. You have plenty of time to choose a major, both before and after you enroll in college. In fact, declaring your major early limits one of the opportunities college offers: to experiment and explore different fields, and perhaps discover ones you haven't even heard of yet. At most colleges, you don't have to choose a major until the end of your sophomore year. Until then, you can take courses in a variety of fields. You’ll earn general education credits that count toward your degree, no matter what you major in. As you take different classes, you’ll probably find a subject area you love. On the other hand, you should know that some majors, especially in career-oriented fields like engineering and design, require lots of courses that have to be taken in order. Starting one of those majors after your freshman year can mean that it takes you longer to complete your degree. However, you can often begin taking classes in the field before you formally declare it as your major."
+            "Yes. You have plenty of time to choose a major, both before and after you enroll in college. In fact, declaring your major early limits one of the opportunities college offers: to experiment and explore different fields, and perhaps discover ones you haven't even heard of yet. At most colleges, you don't have to choose a major until the end of your sophomore year. Until then, you can take courses in a variety of fields. Youll earn general education credits that count toward your degree, no matter what you major in. As you take different classes, youll probably find a subject area you love. On the other hand, you should know that some majors, especially in career-oriented fields like engineering and design, require lots of courses that have to be taken in order. Starting one of those majors after your freshman year can mean that it takes you longer to complete your degree. However, you can often begin taking classes in the field before you formally declare it as your major."
           ],
           "selection_policy": "sequential"
         }
@@ -2082,7 +2891,7 @@
       "output": {
         "text": {
           "values": [
-            "I1: Ok, I see you have a question about how to start searching for the college you want.  The first thing you can do is: Use the College Board step-by-step search here:  https://bigfuture.collegeboard.org/college-search"
+            "I1: Ok, I see you have a question about how to start searching for the college you want.  The first thing you can do is: Use the College Board step-by-step search here:  https:\/\/bigfuture.collegeboard.org\/college-search"
           ],
           "selection_policy": "sequential"
         }
@@ -2151,7 +2960,7 @@
         "selector": "condition",
         "dialog_node": "Online"
       },
-      "output": {},
+      "output": [],
       "parent": null,
       "context": null,
       "created": "2017-04-03T20:45:25.868Z",
@@ -2168,7 +2977,7 @@
         "selector": "condition",
         "dialog_node": "OutOfReach"
       },
-      "output": {},
+      "output": [],
       "parent": null,
       "context": null,
       "created": "2017-03-28T01:40:01.036Z",
@@ -2223,8 +3032,533 @@
       "description": null,
       "dialog_node": "node_11_1490668111318",
       "previous_sibling": "GeneralAffordability"
+    },
+    {
+      "go_to": null,
+      "output": [],
+      "parent": null,
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "Anything Else",
+      "previous_sibling": "Continue Prompt"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "<? $continuePrompt ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "Continue Prompt",
+        "showContinue": true,
+        "completionPct": 0
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "$showContinue",
+      "description": null,
+      "dialog_node": "Continue Prompt",
+      "previous_sibling": "College Cost"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Despite all the news stories about rising college prices, a college education is more affordable than most people believe. There are many colleges that provide an excellent educational experience at a price you can manage. Public college prices are much lower than you might expect."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "College Cost",
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "#collegeCost",
+      "description": null,
+      "dialog_node": "College Cost",
+      "previous_sibling": "Test - SAT Questions"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Do you have a particular major in mind (\"I don't know\" is okay)?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Grades",
+      "context": {
+        "user": {
+          "major": "<? input.text ?>"
+        },
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "input.text != ''",
+      "description": null,
+      "dialog_node": "Major Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Freshman should start here..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:9",
+      "description": null,
+      "dialog_node": "Grade 9",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Great, what was your composite ACT score?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Test Prompt",
+      "context": {
+        "user": {
+          "test": "@test"
+        },
+        "completionPct": 75
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@test:ACT",
+      "description": null,
+      "dialog_node": "ACT Score Prompt",
+      "previous_sibling": "SAT Date"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Have you taken the SAT, ACT or both?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Zip Code Prompt",
+      "context": {
+        "user": {
+          "zip": "<? input.text ?>"
+        },
+        "completionPct": 50
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "input.text.matches('^[0-9]{5}(?:-[0-9]{4})?$')",
+      "description": null,
+      "dialog_node": "Test Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Okay, let's continue..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Continue Prompt",
+      "context": {
+        "completionPct": 100,
+        "previousThread": true
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@affirmative:affirmative",
+      "description": null,
+      "dialog_node": "node_13_1490811969144",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Okay.  When did you take the SAT?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Test Prompt",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@test:Both",
+      "description": null,
+      "dialog_node": "Both",
+      "previous_sibling": "ACT Score Prompt"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "SAT scores are available on the CollegeBoard website, go to https:\/\/studentscores.collegeboard.org\/home."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "Test Score",
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "#testScore && !$showContinue",
+      "description": null,
+      "dialog_node": "Test - SAT Questions",
+      "previous_sibling": "College Search"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Sophomores should start with these resources..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 100
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:10",
+      "description": null,
+      "dialog_node": "Grade 10",
+      "previous_sibling": "Grade 9"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Thank you!  Searching..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Major Prompt",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "input.text != ''",
+      "description": null,
+      "dialog_node": "Do Search",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What grade are you currently in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": {
+        "thread": "College Search",
+        "completionPct": 1,
+        "continuePrompt": "Would you like to continue with your college search?"
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "#collegeSearch",
+      "description": null,
+      "dialog_node": "College Search",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What is your 5-digit zip code?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Grade 12",
+      "context": {
+        "completionPct": 25
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "",
+      "description": null,
+      "dialog_node": "Zip Code Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What letter grade do you most often receive?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "SAT Score Prompt",
+      "context": {
+        "user": {
+          "grades": "<? input.text ?>"
+        },
+        "completionPct": 82
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@sys-number",
+      "description": null,
+      "dialog_node": "Grades",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "What was your total SAT score?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "SAT Date",
+      "context": {
+        "user": {
+          "satScore": "<? input.text ?>"
+        },
+        "completionPct": 75
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@sys-date",
+      "description": null,
+      "dialog_node": "SAT Score Prompt",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "When did you take the SAT?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Test Prompt",
+      "context": {
+        "user": {
+          "satDate": "<? input.text ?>"
+        },
+        "completionPct": 62
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@test:SAT",
+      "description": null,
+      "dialog_node": "SAT Date",
+      "previous_sibling": null
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "College Search"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a grade 9-12."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "!@schoolYear",
+      "description": null,
+      "dialog_node": "Invalid Grade",
+      "previous_sibling": "Grade 12"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "SAT Date"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a valid date."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "SAT Date",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "!@sys-date",
+      "description": null,
+      "dialog_node": "Invalid Date",
+      "previous_sibling": "SAT Score Prompt"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Zip Code Prompt"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Okay, you're a junior."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 10
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:11",
+      "description": null,
+      "dialog_node": "Grade 11",
+      "previous_sibling": "Grade 10"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Zip Code Prompt"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Okay, you're a senior."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "College Search",
+      "context": {
+        "user": {
+          "schoolYear": "@schoolYear"
+        },
+        "completionPct": 10
+      },
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "@schoolYear:12",
+      "description": null,
+      "dialog_node": "Grade 12",
+      "previous_sibling": "Grade 11"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Zip Code Prompt"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a valid zip code (ex. 10101)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Zip Code Prompt",
+      "context": null,
+      "created": "2017-03-31T16:38:08.940Z",
+      "updated": "2017-03-31T16:38:08.940Z",
+      "metadata": null,
+      "conditions": "!input.text.matches('^[0-9]{5}(?:-[0-9]{4})?$') && (intents[0].confidence * 10) < 7",
+      "description": null,
+      "dialog_node": "Invalid Zip Code",
+      "previous_sibling": "Test Prompt"
     }
   ],
-  "workspace_id": "77fddb7e-8647-457a-9b72-9400322f3465",
+  "workspace_id": [
+    "77fddb7e-8647-457a-9b72-9400322f3465",
+    "9026edd0-71e6-43d9-9f42-93062b4ae4da"
+  ],
   "counterexamples": []
 }
